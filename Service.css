@@ -115,7 +115,7 @@
   }
   @media screen and (min-width: 768px) {
     .section {
-      height: fit-content;
+      height: 200%;
       padding: 0 2em;
       /* overflow-y: scroll;
       box-sizing: border-box; */
@@ -132,7 +132,7 @@
   @media screen and (min-width: 992px) {
     .section {
       padding: 1em 3em;
-      height: fit-content;
+      height: 200%;
       /* overflow-y: scroll;
       box-sizing: border-box; */
     }
@@ -145,7 +145,7 @@
   @media screen and (min-width: 400px) {
     .section {
       padding: 0 2em;
-      height: fit-content;
+      height: 200%;
       /* overflow-y: scroll;
       box-sizing: border-box; */
     }
