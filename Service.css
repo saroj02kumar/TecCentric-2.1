@@ -6,7 +6,7 @@
   } */
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-  section {
+  .section {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -115,10 +115,10 @@
   }
   @media screen and (min-width: 768px) {
     .section {
-      height: 200%;
+      /* height: 200%; */
       padding: 0 2em;
-      /* overflow-y: scroll;
-      box-sizing: border-box; */
+      overflow-y: scroll;
+      box-sizing: border-box;
     }
     .column {
       flex: 0 50%;
@@ -132,9 +132,9 @@
   @media screen and (min-width: 992px) {
     .section {
       padding: 1em 3em;
-      height: 200%;
-      /* overflow-y: scroll;
-      box-sizing: border-box; */
+      /* height: 200%; */
+      overflow-y: scroll;
+      box-sizing: border-box;
     }
     .column {
       flex: 0 0 33.33%;
@@ -145,13 +145,28 @@
   @media screen and (min-width: 400px) {
     .section {
       padding: 0 2em;
-      height: 200%;
-      /* overflow-y: scroll;
-      box-sizing: border-box; */
+      /* height: 200%; */
+      overflow-y: scroll;
+      box-sizing: border-box;
     }
     .service h2::before{
      
       width: 100px;
       }
 
+  }
+
+  @media screen and (max-width: 760px) {
+    
+    .service h4 {
+      font-size: 25px;
+    }
+    .service .section-heading{
+      font-size: 20px;
+    }
+
+    .service h2::before{
+     
+      width: 100px;
+      }
   }
