@@ -696,10 +696,14 @@ img {
 .promo {
   height: auto;
   flex-wrap: wrap;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
 }
 .promo .left,.right{
 
   width: 100%;
+  
 }
 
 
