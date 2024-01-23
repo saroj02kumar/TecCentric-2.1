@@ -13,6 +13,8 @@
     place-items: center;
     /* overflow-y: auto; */
     background-color:white;
+    
+
    
     
   }
@@ -117,7 +119,7 @@
     .section {
       /* height: 200%; */
       padding: 0 2em;
-      overflow-y: scroll;
+      /* overflow-y: scroll; */
       box-sizing: border-box;
     }
     .column {
@@ -129,13 +131,15 @@
       width: 100px;
       }
   }
+ 
   @media screen and (min-width: 992px) {
     .section {
       padding: 1em 3em;
       /* height: 200%; */
-      overflow-y: scroll;
+      /* overflow-y: scroll; */
       box-sizing: border-box;
     }
+   
     .column {
       flex: 0 0 33.33%;
       max-width: 33.33%;
@@ -146,9 +150,10 @@
     .section {
       padding: 0 2em;
       /* height: 200%; */
-      overflow-y: scroll;
+      /* overflow-y: scroll; */
       box-sizing: border-box;
     }
+   
     .service h2::before{
      
       width: 100px;
@@ -169,4 +174,6 @@
      
       width: 100px;
       }
+
+     
   }
