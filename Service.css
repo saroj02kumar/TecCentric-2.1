@@ -51,8 +51,8 @@
     font-size: 40px;
     color: rgb(23,40,82);
     margin: 30px 0;
-    transition: 2s;
-    animation: servicesSubheading 2s linear ;
+    /* transition: 2s;
+    animation: servicesSubheading 2s linear ; */
     
   }
 
@@ -90,7 +90,7 @@
     border-radius: 5px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
     cursor: pointer;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     /* animation: services 2s linear ; */
 
 
