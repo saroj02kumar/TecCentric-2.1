@@ -4,37 +4,30 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   } */
+
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
   section {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: grid;
     place-items: center;
     /* overflow-y: auto; */
     background-color:white;
-    
 
+    padding: 50px;
    
     
+  }
+  .service img{
+    mix-blend-mode: white;
   }
   .service{
     text-align: center;
     padding: 50px 0px;
     background-color: #ffffff;
   }
-  .service img{
-    mix-blend-mode: white;
-  }
-
-  .service h2{
-    position: relative;
-    display: inline;
-    font-size: 25px;
-    color: rgb(23,40,82);
-    font-family: sans-serif;
-
-  }
+ 
 
 
   .service h2::before{
@@ -50,11 +43,26 @@
   .service h4{
     font-size: 40px;
     color: rgb(23,40,82);
-    margin: 30px 0;}
+    margin: 30px 0;
+    transition: 2s;
+    animation: servicesSubheading 2s linear ;
+    
+  }
+
+  /* @keyframes servicesSubheading {
+    0%{
+      transform: translate(-200px,0px);
+    }
+    100%{
+      transform: translate(0px,0px);
+    }
+    
+  } */
 
   .section-heading{
-    font-size: 2rem;
-    color: black;
+    font-size: 2.5rem;
+    color:black;
+    margin: 20px 0px;
   }
   .row {
     display: flex;
@@ -76,7 +84,22 @@
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
     cursor: pointer;
     transition: 0.5s;
+    animation: services 2s linear ;
+
+
   }
+
+
+
+  /* @keyframes services {
+    0%{
+      transform: translate(200px,0px);
+    }
+    100%{
+      transform: translate(0px,0px);
+    }
+    
+  } */
   h3 {
     font-size: 20px;
     font-weight: 600;
@@ -94,21 +117,24 @@
     position: relative;
     margin: auto;
     font-size: 30px;
-    height: 2.5em;
-    width: 2.5em;
+    height: auto;
+    width: 3.5em;
     /* color: #ffffff; */
-    border-radius: 50%;
+    border-radius: 25%;
     /* display: grid; */
     place-items: center;
     transition: 0.5s;
   }
+  .icon-wrapper img{
+    max-width: 100%;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 5px;
+  }
   .card:hover {
     background-position: 0 100%;
   }
-  .card:hover .icon-wrapper {
-    background-color: #ffffff;
-    color: #2c7bfe;
-  }
+ 
   .card:hover h3 {
     color: #ffffff;
   }
@@ -117,47 +143,35 @@
   }
   @media screen and (min-width: 768px) {
     .section {
-      /* height: 200%; */
       padding: 0 2em;
-      /* overflow-y: scroll; */
+      overflow-y: scroll;
       box-sizing: border-box;
     }
     .column {
       flex: 0 50%;
       max-width: 50%;
     }
-    .service h2::before{
-     
-      width: 100px;
-      }
+
+
   }
- 
   @media screen and (min-width: 992px) {
     .section {
       padding: 1em 3em;
-      /* height: 200%; */
-      /* overflow-y: scroll; */
+      overflow-y: scroll;
       box-sizing: border-box;
     }
-   
     .column {
       flex: 0 0 33.33%;
       max-width: 33.33%;
     }
   }
 
-  @media screen and (min-width: 300px) {
+  @media screen and (min-width: 400px) {
     .section {
       padding: 0 2em;
-      /* height: 200%; */
-      /* overflow-y: scroll; */
+      overflow-y: scroll;
       box-sizing: border-box;
     }
-   
-    .service h2::before{
-     
-      width: 100px;
-      }
 
   }
 
@@ -174,6 +188,4 @@
      
       width: 100px;
       }
-
-     
   }
