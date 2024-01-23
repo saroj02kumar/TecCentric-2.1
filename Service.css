@@ -14,6 +14,36 @@
    
     
   }
+  .service{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #ffffff;
+  }
+
+  .service h2{
+    position: relative;
+    display: inline;
+    font-size: 25px;
+    color: rgb(23,40,82);
+    font-family: sans-serif;
+
+  }
+
+
+  .service h2::before{
+  content: '';
+	position: absolute;
+
+	bottom: -10px;
+	background-color:orange;
+	height: 4px;
+	box-sizing: border-box;
+	width: 126px;
+  }
+  .service h4{
+    font-size: 40px;
+    color: rgb(23,40,82);
+    margin: 30px 0;}
 
   .section-heading{
     font-size: 2rem;
@@ -88,6 +118,10 @@
       flex: 0 50%;
       max-width: 50%;
     }
+    .service h2::before{
+     
+      width: 100px;
+      }
   }
   @media screen and (min-width: 992px) {
     .section {
@@ -107,4 +141,8 @@
       overflow-y: scroll;
       box-sizing: border-box;
     }
+    .service h2::before{
+     
+      width: 100px;
+      }
   }
