@@ -1,0 +1,63 @@
+.aboutus {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 10px 20px;
+  background-color: white;
+}
+
+.aboutus div {
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.aboutus div h4 {
+
+font-size: 1.5rem;
+
+  font-family:  Arial, Helvetica, sans-serif;
+  padding: 30px 0px;
+ 
+
+}
+
+.aboutus div span {
+  font-size: 2.5rem;
+  color: rgb(23, 40, 82);
+  display: inline-block;
+  padding: 10px 10px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+
+
+.aboutus .about-cards {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutus .about-cards .about-card {
+  width: 100%;
+  height: auto;
+}
+
+.aboutus .about-cards .about-card h3 {
+  color: rgb(23, 40, 82);
+}
+
+.aboutus .about-cards .about-card p {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width:760px){
+
+    .aboutus .about-cards {
+   flex-direction: column;
+      }
+
+}
