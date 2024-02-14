@@ -323,7 +323,7 @@
       padding-bottom: 20px;
     }
     .contain img{
-      height: 100px;
+      height: 70px;
       width: 100%;
     }
     
@@ -331,7 +331,7 @@
   }
 
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 768px) {
     .service {
       padding: 10px;
     }
@@ -398,8 +398,8 @@
         margin-top: 20px; 
       }
       .contain img{
-        height: 40vh;
-        width: 90%;
+        height: 20vh;
+        width: 100%;
         margin-top: 20px;
       }
     
@@ -445,7 +445,7 @@
     }
     .contain img{
       height: 70vh;
-      width: 80%;
+      width: 90%;
       margin-top: 20px;
     }
 
