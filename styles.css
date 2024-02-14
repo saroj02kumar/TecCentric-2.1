@@ -38,7 +38,7 @@ background-color: #ffffff;
 /* Company Titel */
 
 .nav-logo img{
-    width: auto;
+    width: 15rem;
   
      
 }
@@ -61,7 +61,7 @@ background-color: #ffffff;
 
 } */
 .nav-logo{
-    width: 15rem;
+    width: auto;
   display: flex;
   align-items: center;
   height: auto;
