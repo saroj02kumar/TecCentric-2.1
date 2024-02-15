@@ -12,8 +12,8 @@
 }
 
 .accordion{
-    /* margin: 60px auto; */
-    width:50%;
+    margin: 0 1%;
+    width:46%;
 }
 .accordion li{
     list-style: none;

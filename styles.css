@@ -103,7 +103,7 @@ background-color: #ffffff;
 }
 
 /* Button section  */
-.login-button{
+.login-button {
    
 
     
@@ -123,6 +123,7 @@ background-color: #ffffff;
         overflow: hidden;
         border-radius: 8px;
         
+        
 color: #000;
 
 
@@ -133,6 +134,11 @@ color: #000;
     color: #ffffff;
     background-position: 0 100%;
 }
+
+/* .login-button a:hover{
+  color: #fff;
+} */
+
 
 .nav-menubar ul li a::after{
     content: "";

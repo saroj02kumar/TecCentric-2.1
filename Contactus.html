@@ -4,8 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Footer.css">
 </head>
 <body>
-    
+
+      <!-- Top Navbar -->
+  <div class="nav">
+    <div class="nav-logo">
+      <a href="./index.html"><img src="images/tec-logo.png" alt=""></a>
+    </div>
+    <div class="nav-menubar">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+
+        <li><a href="Aboutus.html">About Us </i></a></li>
+       
+
+        <li><a href="Service.html">Services </a></li>
+     
+        <li><a href="Career.html">Carrers</a></li>
+      </ul>
+    </div>
+    <div class="nav-button">
+      <a href="./Contactus.html"><button class="login-button">Contact Us</button></a>
+      <!-- <button class="signin-button">Sign Up</button> -->
+    </div>
+    <i class="fa-solid fa-bars" id="hidden-menubar"></i>
+  </div>
+
+    <div class="contactus-div">
+        <div class="title-contact">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-box">
+            <!-- form box -->
+            <div class="contact form">
+                <h3>Send a Message</h3>
+                <form action="">
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>First Name</span>
+                                <input type="text" placeholder="Jhon">
+                            </div>
+                            <div class="inputBox">
+                                <span>Last Name</span>
+                                <input type="text" placeholder="Doe">
+                            </div>
+                        </div>
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>Email</span>
+                                <input type="text" placeholder="jhondoe@email.com">
+                            </div>
+                            <div class="inputBox">
+                                <span>Mobile</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBox">
+                                <span>Message</span>
+                                <textarea placeholder="Write Your Message here..."></textarea>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBox">
+                                <input type="submit" value="Send">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <!-- info box -->
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><ion-icon name="location"></ion-icon></span>
+                        <p>abc,Bhubaneswar<br> India</p>
+                    </div>
+                    <div>
+                        <span><ion-icon name="mail"></ion-icon></span>
+                        <a href="mailto:LoremIpsum@email.com">LoremIpsum@email.com</a>
+                    </div>
+                    <div>
+                        <span><ion-icon name="call"></ion-icon></span>
+                        <a href="tel:+917865587858">+91 786 5587 858</a>
+                    </div>
+                    <ul class="sci">
+                        <!-- social media links -->
+                        <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- map box -->
+            <div class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119743.5378864313!2d85.73805130785969!3d20.300864868661776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1707902555688!5m2!1sen!2sin"
+                   style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
