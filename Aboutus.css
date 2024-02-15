@@ -11,6 +11,11 @@
   border-radius: 20px;
 }
 
+.about-card img{
+  height: 100px;
+  width: 100px;
+}
+
 .aboutus div h4 {
 
 font-size: 1.5rem;
@@ -150,7 +155,31 @@ font-size: 1.5rem;
   font-size: 1.5rem;
   text-align: left;
 }
-
+/* .redirect-button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 20vh;
+ background:rgb(45, 43, 43);
+}
+.redirect-button span{
+  font-size: x-large;
+  color: white;
+}
+.redirect-button button{
+  margin: 30px;
+  height: 60px;
+  width: 180px;
+  background-color: rgb(23, 40, 82);
+  border-radius: 5px;
+}
+.redirect-button a{
+  font-size: x-large;
+  color: white;
+  font-weight: 500;
+  background: transparent;
+  text-decoration: none;
+} */
 @media screen and (max-width:480px){
 
   .about-us-container{

@@ -6,11 +6,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 .banner {
-    height: 40vh;
+    height: 85vh;
 }
 
 .banner img {
-    height: 40vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -32,7 +32,7 @@
     ;
     font-size: 5rem;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 60px;
+    line-height: 100px;
     font-weight: bold;
 
 
@@ -56,7 +56,7 @@
 
 
 
-    font-size: 1rem;
+    font-size: 1.8rem;
     margin-top: 30px;
     padding: 0 150px;
     margin: 30px 0;
@@ -84,6 +84,7 @@
     color: #333;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 2rem;
 
 }
 
@@ -97,12 +98,13 @@
 }
 
 .apply-cv form {
-    max-width: 600px;
+    max-width: 900px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
  .apply-cv label {
@@ -130,23 +132,46 @@ select {
 }
 
 .apply-cv .button {
-    border: none;
-    color: aquamarine;
+    /* display: inline-block; */
+    color: rgb(59, 56, 56);
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    display: flex;
     font-size: 16px;
-    margin: 4px 2px 0 70px;
     padding: 10px 50px;
     cursor: pointer;
-    border: 1px solid aquamarine;
+    border: 1px solid rgb(59, 56, 56);
 }
 
 @media (max-width: 768px) {
     form {
         width: 90%;
     }
+    .career-promo h5{
+        
+    
+        padding: 10px 90px;
+    }
+}
+@media (max-width: 420px){
+    .banner{
+        height: 40vh;
+    }
+    .career-promo h3{
+        font-size: 1.5rem;
+        padding: 5px 0;
+        margin: 30px 0px 10px;
+    }
+    .career-promo h2{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    .career-promo h5{
+        font-size: 1.2rem;
+        margin: 5px 0;
+        padding: 5px 10px;
+    }
+    
 }
 
 span {

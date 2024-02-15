@@ -13,15 +13,20 @@ width:100%;
 } */
 .tec-work{
     background: whitesmoke;
-    background-color: rgb(213, 208, 219);
+    background-color: #fff;
 }
 .tec-work-head{
 text-align: center;
 padding: 2rem 0;
 font-size: 1.2rem;
-text-decoration: underline;
+border-top: 3px solid rgb(23,40,82);
+
 
 }
+.tec-work-head h1{
+    color: rgb(23,40,82);
+}
+
 .tec-container{
     /* margin: 80px; */
     width: 100%;
@@ -31,7 +36,7 @@ text-decoration: underline;
     align-items: center;
     background: whitesmoke;
     flex-wrap: wrap;
-    background-color: rgb(213, 208, 219);
+    background-color: #fff;
 }
 
 .tec-container .tec-card {

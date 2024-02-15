@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.reg-div h1{
+    color: darkorange;
+    font-weight: bold;
+    font-size: 30px;
+}
+.registration-form{
+    width: 90%;
+    margin: 20px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgb(94, 92, 92);
+}
+.registration-form h2{
+    /* height: auto; */
+    /* position: relative; */
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(73, 73, 136);
+    color: white;
+
+}
+.registration-form input{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    
+}
+.registration-form form{
+    text-align: center;
+    /* left: 0; */
+}
+#upload-btn label{
+    float: left;
+    width: 200px;
+    padding: 2px;
+    line-height: 2px;
+    margin-top: 20px;
+    /* margin: 1px; */
+   
+    /* margin-left: 0px;s */
+    /* text-align: left; */
+}
+ #submit{
+    width: 20%;
+    height: auto;
+    /* font-size: 50px; */
+    font-weight: 10px;
+    border-radius: 10px;
+    margin: auto;
+    /* overflow: visible; */
+    /* cursor: pointer; */
+
+
+}
+
+@media screen and(max-width:320px) {
+    .reg-div{
+        height: auto;
+    }
+    .registration-form{
+        /* width: 70%; */
+        margin: 100px;
+        height: auto;
+    }
+    .registration-form input{
+        /* width: 95%;
+        margin: 5px; */
+    }
+    #submit{
+        width: 100%;
+        height: auto;
+        margin:auto;
+    }
+    
+}
