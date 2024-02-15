@@ -242,6 +242,12 @@
   .card:hover p {
     color: #f0f0f0;
   }
+
+  /* .icon-wrapper img{
+    border-radius: 50%;
+  } */
+
+
   @media screen and (min-width: 768px) {
     .section {
       padding: 0 2em;
