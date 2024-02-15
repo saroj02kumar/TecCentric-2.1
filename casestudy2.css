@@ -64,7 +64,7 @@ section.show-animation   .casestudy2 .right .card2{
     width: 100%;
 
 }
-.card2 h4,p,img{
+.card2 h4, .card2 p, .card2 img{
     margin: 5px 0px;
     text-align: left;
     
