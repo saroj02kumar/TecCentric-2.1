@@ -14,6 +14,27 @@ menutoggle.addEventListener("click", () => {
   sidebar.classList.toggle("navx");
 });
 
+
+let sidebar1 = document.querySelector(".nav")
+
+window.addEventListener("scroll", ()=>{
+  if (window.pageYOffset > 50) { 
+      
+      sidebar1.classList.add("navy")
+      
+      
+
+      
+  } if(window.pageYOffset < 50) {
+      sidebar1.classList.remove("navy")
+      
+  }
+});
+
+
+
+
+
 var slides = document.querySelectorAll(".slide");
 var btns = document.querySelectorAll(".btn");
 let currentSlide = 1;
@@ -125,3 +146,13 @@ function scrollCards() {
 }
 
 setInterval(scrollCards, 1000); // Adjust the interval as needed (in millise
+
+
+
+
+
+
+
+
+
+
