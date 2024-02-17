@@ -6,8 +6,67 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: 'Ubuntu Sans';
+    src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
+        url('fonts/UbuntuSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu Sans Condensed';
+  src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
+      url('fonts/UbuntuSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Houschka Pro';
+  src: 
+      url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+      ;
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Houschka Pro';
+  src: 
+      url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+      ;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: 
+ 
+      url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),
+      ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
+      
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+
 body{
-    background-color: #fff;
+  background-color: #FFF8DC;
     box-sizing: border-box;
 }
 
@@ -16,7 +75,7 @@ body{
 
 
 .nav{
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -24,11 +83,30 @@ body{
     padding-bottom: 5px;
     /* background-image: linear-gradient(to left,rgb(2, 2, 68), rgb(18, 18, 30), rgb(32, 32, 41),rgb(32, 32, 41), rgb(12, 11, 11), rgb(6, 6, 6) ) ; */
 
-background-color: #ffffff;
+/* background-color: #FFF8DC; */
+background-color: transparent;
     box-sizing: border-box;
     flex-wrap: wrap;
-
+position: absolute;
+z-index: 100;
 }
+
+.nav:hover{
+
+  background-color: #FFF8DC;
+  a{ color: #000;}
+  .login-button{
+    color: #000;
+    border: 1px solid #0000FF;
+  }
+  .nav-logo img{
+    background-color: transparent;
+  }
+  
+  
+}
+
+
 
 /* @keyframes nav-color-change {
     
@@ -39,7 +117,9 @@ background-color: #ffffff;
 
 .nav-logo img{
     width: 15rem;
-  
+    background-color: #fff;
+    padding: 0px 15px ;
+      border-radius: 2px;
      
 }
 
@@ -83,7 +163,7 @@ background-color: #ffffff;
 }
 .nav-menubar ul li{
     list-style: none;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 .nav-menubar ul li a{
@@ -92,9 +172,9 @@ background-color: #ffffff;
     
     font-weight: 300;
     
-    padding: 0 0 5px 0;
-    font-family: 'Roboto', sans-serif;
-    color: #000;
+    padding: 5px 10px;
+    font-family: 'Basis Grotesque Pro' ;
+    color: #fff;
     position: relative;
 }
 
@@ -107,39 +187,78 @@ background-color: #ffffff;
    
 
     
-        border: 1px solid orange;
+        border: 1px solid #fff;
         background: none;
-        padding: 10px 20px;
+        padding: 1px 10px;
         font-size: 1.2rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Basis Grotesque Pro' ;
         cursor: pointer;
-        margin: 10px;
+        /* margin: 10px; */
         transition: 0.5s;
         background-position: 0 2.5%;
-        background: linear-gradient(#ffffff 50%, rgb(23,40,82) 50%);
+        /* background: linear-gradient(#FFF8DC 50%, #0000FF 50%); */
+        background-color: transparent;
         background-size: 100% 200%;
         background-position: 0 2.5%;
         position: relative;
         overflow: hidden;
-        border-radius: 8px;
+        border-radius: 2px;
         
         
-color: #000;
+color: #fff;
 
 
 }
 
+.login-button a{
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family:'Basis Grotesque Pro' ;
+  font-weight: 300;
+}
+/* .login-button a{
+  text-decoration: none;
+    font-size: 1.2rem;
+    
+    font-weight: 300;
+    
+    padding: 5px 10px;
+    font-family: 'Basis Grotesque Pro' ;
+    color: #fff;
+
+    background-color: transparent;
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: 0.5s;
+        background-position: 0 2.5%;
+        border: 1px solid #fff;
+        background: none;
+        padding: 5px 10px;
+        font-size: 1.2rem;
+        font-family: 'Basis Grotesque Pro' ;
+        cursor: pointer;
+} */
+
 .login-button:hover{
-    background-color: rgb(23,40,82);;
+    background-color: #0000FF;
     color: #ffffff;
-    background-position: 0 100%;
+    a{
+      color: #ffffff;
+    }
+  
+   
 }
 
 /* .login-button a:hover{
   color: #fff;
+  
 } */
 
-
+/* 
 .nav-menubar ul li a::after{
     content: "";
     position: absolute;
@@ -150,15 +269,23 @@ color: #000;
     background-color:orange;
     transition: all ease 1s;
 
-}
+} */
 
-.nav-menubar ul li a:hover::after{
+/* .nav-menubar ul li a:hover::after{
  
     width: 100%;
 
 
-}
+} */
 
+.nav-menubar ul li a:hover{
+  padding: 5px 10px;
+  border: 1px solid #0000FF;
+  color: #fff;
+  background: #0000FF;
+  transition: 0.5s all;
+  border-radius: 2px;
+}
 
 
 /* hidden menu section */

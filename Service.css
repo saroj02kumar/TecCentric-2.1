@@ -13,7 +13,8 @@
     display: grid;
     place-items: center;
     overflow-y: auto;
-     background-color:white;
+     background-color: #ffffff;
+     
 
     /* padding: 20px 5px; */  
   } 
@@ -23,8 +24,10 @@
   .service{
     text-align: center;
     /* padding: 50px 0px; */
-    background-color: #ffffff;
+    background-color: rgb(23,40,82);
     height: auto;
+    padding-top: 10vh;
+    
   }
   .service h2{
     position: relative;
@@ -32,6 +35,7 @@
     font-size: 25px;
     color: rgb(23,40,82);
     font-family: sans-serif;
+    
 
   }
 
@@ -74,9 +78,10 @@
   .contain h2{
     position: absolute;
     left: 7%;
-    top:5%;
-    color: white;
+    margin-top:15%;
+    color: #ffffff;
     width: max-content;
+    height: fit-content;
    }
   .contain h1{
     width: 35%;
