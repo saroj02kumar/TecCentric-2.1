@@ -15,66 +15,6 @@
   background: #1D212B;
 } */
 
-@font-face {
-  font-family: 'Ubuntu Sans';
-  src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
-      url('fonts/UbuntuSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-font-family: 'Ubuntu Sans Condensed';
-src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
-    url('fonts/UbuntuSans-Bold.woff') format('woff');
-font-weight: bold;
-font-style: normal;
-font-display: swap;
-}
-@font-face {
-font-family: 'Houschka Pro';
-src: 
-    url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
-    ;
-font-weight: bold;
-font-style: normal;
-}
-@font-face {
-font-family: 'Houschka Pro';
-src: 
-    url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
-    ;
-font-weight: 500;
-font-style: normal;
-}
-@font-face {
-font-family: 'Basis Grotesque Pro';
-src: 
-
-    url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Basis Grotesque Pro';
-src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
-    
-font-weight: bold;
-font-style: normal;
-}
-
-
-
-
-
-
-
 header{
   height: 100vh;
   width: 100%;
@@ -122,8 +62,6 @@ header{
   font-weight: 800;
   letter-spacing: 2px;
   margin-top: 10vh;
-  font-family: "Basis Grotesque Pro";
-  font-weight: bold;
 }
 
 .img-slider .slide .info p{
@@ -133,8 +71,6 @@ header{
   width: 60%;
   padding: 10px;
   border-radius: 4px;
-  font-family: "Basis Grotesque Pro";
-  font-weight: normal;
 }
 
 .img-slider .navigation{

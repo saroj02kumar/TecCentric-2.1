@@ -7,65 +7,6 @@
 
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-  @font-face {
-    font-family: 'Ubuntu Sans';
-    src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
-        url('fonts/UbuntuSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ubuntu Sans Condensed';
-  src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
-      url('fonts/UbuntuSans-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Houschka Pro';
-  src: 
-      url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
-      ;
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Houschka Pro';
-  src: 
-      url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
-      ;
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Basis Grotesque Pro';
-  src: 
- 
-      url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Basis Grotesque Pro';
-  src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
-      
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-
-
-
-
   section {
     height: auto;
     width: 100%;
@@ -94,7 +35,11 @@
     font-size: 25px;
     color: rgb(23,40,82);
     font-family: sans-serif;
+    
+
   }
+
+
   .service h2::before{
   content: '';
 	position: absolute;
@@ -129,6 +74,7 @@
     background-color: rgb(23,40,82);
     align-items: center;
     position: relative;
+    margin-bottom: 1%;
   }
   .contain h2{
     position: absolute;
@@ -137,8 +83,6 @@
     color: #ffffff;
     width: max-content;
     height: fit-content;
-    font-family: "Basis Grotesque Pro";
-    font-weight: 700;
    }
   .contain h1{
     width: 35%;
@@ -147,8 +91,6 @@
     color: white;
     margin-left: 60px;
     animation: trans 1.5s;
-    font-family: "Basis Grotesque Pro";
-    font-weight: normal;
   }
   @keyframes trans{
     0%{
@@ -174,8 +116,6 @@
     padding: 5px;
     font-weight: bold;
     text-decoration: none;
-    font-family: "Basis Grotesque Pro";
-    /* font-weight: 700; */
   }
   .contain button{
     margin-top: 20px;
@@ -226,9 +166,7 @@
   .section-heading{
     font-size: 2.5rem;
     color:black;
-    margin: 20px 0px 10px 0;
-    font-family: "Basis Grotesque Pro";
-    font-weight: 800;
+    margin: 20px 0px;
   }
   .row {
     display: flex;
@@ -267,14 +205,10 @@
     font-weight: 600;
     color: #1f194c;
     margin: 1em 0;
-    font-family: "Basis Grotesque Pro";
-    font-weight: 600;
   }
   .card  p {
     color: #575a7b;
     font-size: 15px;
-    font-family: "Basis Grotesque Pro";
-    font-weight: 600;
     line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
@@ -304,6 +238,7 @@
     height: 100px;
     width: 150px;
     margin-bottom: 5px;
+    border-radius: 50%;
   }
   .card:hover {
     background-position: 0 100%;
@@ -419,7 +354,7 @@
       opacity: 1;
       
     }
-    .card{
+    .service .card{
       transform: none;
       padding: 20px 5px;
     }

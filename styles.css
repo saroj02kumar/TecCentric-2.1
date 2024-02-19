@@ -46,7 +46,8 @@
   src: 
  
       url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
+      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),
+      ;
   font-weight: normal;
   font-style: normal;
 }
@@ -79,9 +80,10 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
     padding-bottom: 5px;
-    
+    /* background-image: linear-gradient(to left,rgb(2, 2, 68), rgb(18, 18, 30), rgb(32, 32, 41),rgb(32, 32, 41), rgb(12, 11, 11), rgb(6, 6, 6) ) ; */
+
+/* background-color: #FFF8DC; */
 background-image: linear-gradient( rgba(66, 64, 64, 0.628), rgba(66, 64, 64, 0.527), rgba(147, 138, 138, 0.146));
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -138,11 +140,10 @@ background-image: none;
 /* Company Titel */
 
 .nav-logo img{
-    width: 15rem;
-    background-color: #ffffff30;
-    padding: 0px 15px ;
-      border-radius: 2px;
-      
+  width: 15rem;
+  background-color: #ffffff30;
+  padding: 0px 15px ;
+    border-radius: 2px;
      
 }
 
@@ -167,7 +168,6 @@ background-image: none;
     width: auto;
   display: flex;
   align-items: center;
-  margin-top: 5px;
   height: auto;
     
     
@@ -180,9 +180,7 @@ background-image: none;
 } */
 
 /* Menubar-section */
-.nav-menubar{
-  margin-top: 5px;
-}
+
 .nav-menubar ul{
     display: flex;
     
@@ -209,10 +207,6 @@ background-image: none;
 }
 
 /* Button section  */
-
-.nav-button{
-  margin-top: 5px;
-}
 .login-button {
    
 
@@ -573,7 +567,7 @@ color: #000;
     }
 }
 
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 
 .promo{
@@ -597,8 +591,7 @@ section.show-animation .promo{
 .promo h2{
     line-height: 95%;
     font-size: xx-large;
-    font-family: "Houschka Pro";
-    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -639,8 +632,6 @@ section.show-animation .promo{
   color: white;
   text-decoration: none;
   font-size: x-large;
-  font-family: "Houschka Pro";
-  font-weight: bold;
 }
 .promo .left p{
     color: #d6d6d6;
@@ -651,10 +642,6 @@ section.show-animation .promo{
 }
 .promo .left p,h2,h5{
   margin-bottom: 10px;
-}
-.promo .left h5{
-  font-family: "Houschka Pro";
-  font-weight: 500;
 }
 
 
@@ -703,12 +690,6 @@ section.show-animation .promo{
 }
 .promo .left p{
   text-align: center;
-  font-family: "Houschka Pro";
-  font-weight: 500;
-}
-.promo .left h5{
-  font-family: "Houschka Pro";
-  font-weight: 300;
 }
 .promo .left,.right{
 
@@ -723,8 +704,7 @@ section.show-animation .promo{
 .promo h2{
   font-size: x-large;
 line-height: 30px;
-font-family: "Houschka Pro";
-font-weight: bold;
+
 }
 
 
@@ -889,7 +869,6 @@ transition: 0.2s linear;
   display: inline-block;
   color: white ;
   padding: 10px 30px;
-  font-family: "Houschka Pro";
   font-weight: bold;
   background-color: rgb(23,40,82);
 

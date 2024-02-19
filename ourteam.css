@@ -1,61 +1,4 @@
-
-@font-face {
-  font-family: 'Ubuntu Sans';
-  src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
-      url('fonts/UbuntuSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-font-family: 'Ubuntu Sans Condensed';
-src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
-    url('fonts/UbuntuSans-Bold.woff') format('woff');
-font-weight: bold;
-font-style: normal;
-font-display: swap;
-}
-@font-face {
-font-family: 'Houschka Pro';
-src: 
-    url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
-    ;
-font-weight: bold;
-font-style: normal;
-}
-@font-face {
-font-family: 'Houschka Pro';
-src: 
-    url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
-    ;
-font-weight: 500;
-font-style: normal;
-}
-@font-face {
-font-family: 'Basis Grotesque Pro';
-src: 
-
-    url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Basis Grotesque Pro';
-src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-    url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
-    
-font-weight: bold;
-font-style: normal;
-}
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -193,6 +136,7 @@ body{
 .our-team {
     height: auto;
     width: 100%;
+    background-color: rgb(0, 42, 148);
 
 }
 #ourteamheading{
@@ -215,14 +159,11 @@ body{
     align-items: center;
     justify-content: center;
 }
-.card{
-  height: 72vh;
-  
-}
+
 .card-container .card {
     display: flex;
     flex-direction: column;
-    
+    height: 70vh;
     width: 100%;
     padding-bottom: 10px;
     box-shadow: 1px 2px 5px rgb(95, 94, 94);
@@ -309,7 +250,7 @@ body{
 
 
 .ourteam {
-    background-color: #f5f5f5;
+    background-color: rgb(226, 223, 223);
   }
   .ourteam .row {
     display: flex;
@@ -319,34 +260,19 @@ body{
   }
   .ourteam .column {
     width: 100%;
+  
     padding: 0.5em 0;
     margin-bottom: 1rem;
   }
   .ourteam h1 {
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3em;
     color: #1f003b;
-padding-bottom: 0;
-    font-family: "Houschka Pro";
-    font-weight: bold;
   }
-
-  /* .ourteam h1::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    width: 100%;
-    background-color:orange;
-    transition: all ease 1s;
-    margin-bottom: 10px;
-
-} */
   .ourteam .card {
     box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
-    padding: 3.5em 1em;
+    padding: 1em 1em;
     border-radius: 0.6em;
     color: #1f003b;
     cursor: pointer;
@@ -359,36 +285,33 @@ padding-bottom: 0;
     background-color: #a993ff;
     padding: 0.5em;
     border-radius: 50%;
-    margin: 0 auto 2em auto;
+    margin: 0 auto 1em auto;
   }
   .ourteam .card img {
     width: 100%;
     border-radius: 50%;
   }
   .ourteam .card h3 {
-    font-weight: 600;
-    font-family: "Houschka Pro";
-    
+    font-weight: 500;
   }
   .ourteam .card p {
-    font-weight: bold;
-    font-family:"Houschka Pro" ;
+    font-weight: 300;
     text-transform: uppercase;
-    margin: 0.5em 0 2em 0;
+    margin: 0.5em 0 1em 0;
     letter-spacing: 2px;
-    color: rgb(23,40,82);
   }
   .ourteam .icons {
-    width: 50%;
-    min-width: 180px;
+    width: 30%;
+    min-width: auto;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .ourteam .card a {
     text-decoration: none;
     color: inherit;
     font-size: 1.4em;
+    
   }
   .ourteam .card:hover {
     background: linear-gradient(#6045ea, #8567f7);
