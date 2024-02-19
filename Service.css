@@ -93,13 +93,8 @@
     display: inline;
     font-size: 25px;
     color: rgb(23,40,82);
-    font-family: "Basis Grotesque Pro";
-    font-weight: 600;
-    
-
+    font-family: sans-serif;
   }
-
-
   .service h2::before{
   content: '';
 	position: absolute;
