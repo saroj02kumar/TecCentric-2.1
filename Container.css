@@ -3,6 +3,65 @@
     margin: 0;
 
 }
+
+@font-face {
+    font-family: 'Ubuntu Sans';
+    src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
+        url('fonts/UbuntuSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu Sans Condensed';
+  src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
+      url('fonts/UbuntuSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Houschka Pro';
+  src: 
+      url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+      ;
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Houschka Pro';
+  src: 
+      url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+      ;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: 
+ 
+      url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
+      
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+
 .Bg-img{
     height: 100vh;
     width: 100%;
@@ -37,11 +96,14 @@
 .left-div h2{
     font-size: 40px;
     color: rgb(23,40,82);
-
+font-family: "Houschka Pro";
+font-weight: 500;
 }
 .left-div p{
     font-size: 15px;
     margin: 2rem 0;
+    font-family: "Basis Grotesque Pro";
+    font-weight: normal;
 
 }
 
@@ -71,6 +133,8 @@
     color: #000;
     background-color: rgb(131, 125, 125);
     border-radius: 8px;
+    font-family: "Houschka Pro";
+font-weight: 500;
 
 }
 .container .left-div .content a:hover{

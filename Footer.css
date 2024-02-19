@@ -1,4 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+	font-family: 'Ubuntu Sans';
+	src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
+		url('fonts/UbuntuSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+  font-family: 'Ubuntu Sans Condensed';
+  src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
+	  url('fonts/UbuntuSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  }
+  @font-face {
+  font-family: 'Houschka Pro';
+  src: 
+	  url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+	  url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+	  ;
+  font-weight: bold;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Houschka Pro';
+  src: 
+	  url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+	  url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+	  ;
+  font-weight: 500;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: 
+  
+	  url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+	  url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  @font-face {
+  font-family: 'Basis Grotesque Pro';
+  src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+	  url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
+	  
+  font-weight: bold;
+  font-style: normal;
+  }
+  
+  
+  
+
+
+
+
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -29,6 +89,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
+	font-family: "Basis Grotesque Pro";
 	color: #ffffff;
 	text-transform: capitalize;
 	margin-bottom: 35px;
@@ -50,6 +111,7 @@ ul{
 }
 .footer-col ul li a{
 	font-size: 16px;
+	font-family: "Basis Grotesque Pro";
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
