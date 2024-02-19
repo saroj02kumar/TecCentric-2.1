@@ -273,7 +273,7 @@ color: #fff;
 } */
 
 .login-button:hover{
-    background-color: #0000FF;
+    background-color: #55AAE5;
     color: #ffffff;
      option a{
       color: #ffffff;
@@ -315,7 +315,7 @@ color: #fff;
   padding: 5px 10px;
   border: 1px solid #0000FF;
   color: #fff;
-  background: #0000FF;
+  background: #55AAE5;
   transition: 0.5s all;
   border-radius: 2px;
 }
