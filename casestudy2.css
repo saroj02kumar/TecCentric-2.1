@@ -35,7 +35,7 @@ section.show-animation .casestudy2 .left{
   
 
 }
-.casestudy2 .left p,h2,a{
+.casestudy2 .left p, .casestudy2 .left h2, .casestudy2 .left a{
     margin-bottom: 30px;
     
 }

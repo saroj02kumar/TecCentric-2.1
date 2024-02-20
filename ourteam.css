@@ -1,10 +1,128 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+@font-face {
+  font-family: 'Ubuntu Sans';
+  src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
+      url('fonts/UbuntuSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+font-family: 'Ubuntu Sans Condensed';
+src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
+    url('fonts/UbuntuSans-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Houschka Pro';
+src: 
+    url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+    url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+    ;
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'Houschka Pro';
+src: 
+    url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+    url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+    ;
+font-weight: 500;
+font-style: normal;
+}
+@font-face {
+font-family: 'Basis Grotesque Pro';
+src: 
+
+    url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+    url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Basis Grotesque Pro';
+src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+    url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
+    
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: 
+ 
+      url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
+      
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  src: url('fonts/OpenSansSemiCondensed-Bold.woff2') format('woff2'),
+      url('fonts/OpenSansSemiCondensed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('fonts/OpenSansCondensed-Regular.woff2') format('woff2'),
+      url('fonts/OpenSansCondensed-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+      url('fonts/OpenSansCondensed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     
 }
 *, *::before, *::after {
@@ -136,7 +254,6 @@ body{
 .our-team {
     height: auto;
     width: 100%;
-    background-color: rgb(0, 42, 148);
 
 }
 #ourteamheading{
@@ -159,11 +276,14 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.card{
+  height: 72vh;
+  
+}
 .card-container .card {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    
     width: 100%;
     padding-bottom: 10px;
     box-shadow: 1px 2px 5px rgb(95, 94, 94);
@@ -250,7 +370,7 @@ body{
 
 
 .ourteam {
-    background-color: rgb(226, 223, 223);
+    background-color: #f5f5f5;
   }
   .ourteam .row {
     display: flex;
@@ -260,19 +380,34 @@ body{
   }
   .ourteam .column {
     width: 100%;
-  
     padding: 0.5em 0;
     margin-bottom: 1rem;
   }
   .ourteam h1 {
     width: 100%;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5rem;
     color: #1f003b;
+padding-bottom: 0;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: bold;
   }
+
+  /* .ourteam h1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color:orange;
+    transition: all ease 1s;
+    margin-bottom: 10px;
+
+} */
   .ourteam .card {
     box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
-    padding: 1em 1em;
+    padding: 3.5em 1em;
     border-radius: 0.6em;
     color: #1f003b;
     cursor: pointer;
@@ -285,33 +420,36 @@ body{
     background-color: #a993ff;
     padding: 0.5em;
     border-radius: 50%;
-    margin: 0 auto 1em auto;
+    margin: 0 auto 2em auto;
   }
   .ourteam .card img {
     width: 100%;
     border-radius: 50%;
   }
   .ourteam .card h3 {
-    font-weight: 500;
+    font-weight: 600;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    
   }
   .ourteam .card p {
-    font-weight: 300;
+    font-weight: bold;
+    font-family:"Open Sans", verdana, Helvetica, sans-serif ;
     text-transform: uppercase;
-    margin: 0.5em 0 1em 0;
+    margin: 0.5em 0 2em 0;
     letter-spacing: 2px;
+    color: rgb(23,40,82);
   }
   .ourteam .icons {
-    width: 30%;
-    min-width: auto;
+    width: 50%;
+    min-width: 180px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .ourteam .card a {
     text-decoration: none;
     color: inherit;
     font-size: 1.4em;
-    
   }
   .ourteam .card:hover {
     background: linear-gradient(#6045ea, #8567f7);
@@ -320,12 +458,9 @@ body{
   .ourteam .card:hover .img-container {
     transform: scale(1.15);
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     .ourteam {
       padding: 1em 7em;
-    }
-    .team-banner main a{
-      font-size: 3.5rem;
     }
   }
   @media screen and (min-width: 992px) {

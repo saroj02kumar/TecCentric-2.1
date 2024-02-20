@@ -466,11 +466,11 @@ color: #fff;
 
 .navx .nav-menubar ul li a{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #000;
     font-weight: 500;
     
-    padding: 0 0 5px 0;
+    padding: 0 0 10px 0;
 }
 /* .navx .nav-menubar ul li a::after{
     content: "";

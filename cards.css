@@ -1,5 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+} */
+
+/* 
+.tec-work{
+    background: whitesmoke;
+    background-color: rgb(23,40,82);
+}
+.tec-work-head{
+text-align: center;
+padding: 2rem 0;
+font-size: 1.2rem;
+border-top: 3px solid rgb(23,40,82);
+
+
+}
+.tec-work-head h1{
+    color: white;
+}
+
+.tec-container{
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23,40,82);
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.tec-container .tec-card {
+    height: 350px;
+    width: calc(33.33% - 20px);  
+    margin: 10px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;overflow: hidden;
+
+}
+
+.tec-card img {
+    margin:0;
+    height: 100%;
+    width: 100%;
+    
+    transition: 0.5s;
+}
+
+ .intro {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background: black;
+    
+    color: white;
+    transition: 0.5s;
+    padding: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.intro ul {
+    padding-left: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.intro ul li{
+    margin-left: 10px;
+}
+
+.intro h1 {
+    margin: 0px;
+padding-left:20px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.intro p {
+    font-size: 14px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    margin-left:20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+.tec-card:hover .intro h1 {
+    cursor: pointer;
+}
+
+.tec-card:hover .intro {
+    height: 100%;
+    
+    background: black;
+
+}
+
+.tec-card:hover  p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tec-card:hover img {
+    transform: scale(1.1);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .tec-card {
+        
+   
+   width: 90%;
+   
+    }
+    .tec-container .tec-card
+    {width: 90%;}
+}
+
+@media only screen and (max-width: 450px) {
+    .tec-card{
+        width:400px;
+    }
+    
+    .tec-container{
+        flex-direction: column;
+    }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -67,33 +210,34 @@ border-top: 3px solid rgb(23,40,82);
     /* background: rgba(27, 27, 27, 0.5); */
     color: white;
     transition: 0.5s;
-    padding: 5px 0;
+    padding: 3px 0 5px;
     box-sizing: border-box;
     text-align: center;
 }
 
 .intro ul {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     margin-top: 10px;
     list-style-type: none;
 }
-.intro ul li{
-    margin-left: 10px;
-}
+/* .intro ul li{
+    margin-left: 10px;   
+} */
 
 .intro h1 {
     margin: 0px;
-padding-left:20px;
-/* padding-bottom: 10px; */
-    font-size: 18px;
+    /* padding-left:20px; */
+    /* padding-bottom: 10px; */
+    font-size: 23px;
     font-weight: 500;
 }
 
 .intro p {
-    font-size: 14px;
+    font-size: 16px;
     margin-top:10px;
     margin-bottom: 30px;
-    margin-left:20px;
+    padding: 10px;
+    /* margin-left:20px; */
     visibility: hidden;
     opacity: 0;
 }
@@ -145,5 +289,3 @@ padding-left:20px;
         flex-direction: column;
     }
 }
-
-

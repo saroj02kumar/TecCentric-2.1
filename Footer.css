@@ -86,24 +86,23 @@ ul{
     margin-bottom: 30px;
 }
 .row{
-	align-items: center;
-	text-align: center;
+	padding-left: 20px;
 }
-.footer-col h4::before{
+/* .footer-col h4::before{
 	text-align: center;
 	align-items: center;
 	left:40%;
-}
+} */
 }
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
 }
-.row{
+/* .row{
 	align-items: center;
 	text-align: center;
 	left:40%;
-}
+} */
 }
 
 
