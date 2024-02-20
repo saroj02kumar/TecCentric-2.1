@@ -322,12 +322,18 @@ body{
   }
   @media screen and (max-width: 768px) {
     .ourteam {
-      padding: 1em 7em;
+      padding: 1em 1em;
     }
     .team-banner main a{
       font-size: 3.5rem;
     }
+    .ourteam .column {
+      /* flex: 0 0 33.33%; */
+      width: 95%;
+      padding: 0 1em;
+    }
   }
+  
   @media screen and (min-width: 992px) {
     .ourteam {
       padding: 1em;
@@ -336,8 +342,8 @@ body{
       padding: 5em 1em;
     }
     .ourteam .column {
-      flex: 0 0 33.33%;
-      max-width: 33.33%;
+      /* flex: 0 0 33.33%; */
+      max-width: 95%;
       padding: 0 1em;
     }
   }
