@@ -43,7 +43,8 @@
   .service h2::before{
   content: '';
 	position: absolute;
-	bottom: -10px;
+	/* bottom: px; */
+  top:31px;
 	background-color:orange;
 	height: 4px;
 	box-sizing: border-box;
