@@ -336,6 +336,12 @@ body{
       padding: 5em 1em;
     
   }
+  .ourteam .row{
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0 0 0 25px;
+  }
+}
   
   @media screen and (min-width: 992px) {
     .ourteam {
