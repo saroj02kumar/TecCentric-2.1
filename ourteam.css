@@ -297,7 +297,7 @@ body{
   .ourteam .card p {
     font-weight: 300;
     text-transform: uppercase;
-    margin: 0.5em 0 1em 0;
+    margin: 1em 0 1.5em 0;
     letter-spacing: 2px;
   }
   .ourteam .icons {
@@ -322,7 +322,7 @@ body{
   }
   @media screen and (max-width: 768px) {
     .ourteam {
-      padding: 1em 1em;
+      padding: 1em 0em;
     }
     .team-banner main a{
       font-size: 3.5rem;
@@ -332,6 +332,9 @@ body{
       width: 95%;
       padding: 0 1em;
     }
+    .ourteam .card {
+      padding: 5em 1em;
+    
   }
   
   @media screen and (min-width: 992px) {
