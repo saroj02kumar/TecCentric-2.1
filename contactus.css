@@ -17,6 +17,7 @@ width:100%;
 padding:40px 100px;
 }
 .contactus-div .title-contact{
+    padding-top: 3%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -191,6 +192,9 @@ margin-bottom: 10px;
     .contactus-div{
         padding:20px;
     }
+    .contactus-div .title-contact{
+        margin-top: 3%;
+    }
     .contact-box{
         position:relative;
         display:grid;
@@ -224,3 +228,17 @@ margin-bottom: 10px;
 }
 
 
+@media (max-width:768px){
+    .contactus-div .title-contact{
+        margin-top: 3%;
+    
+    }
+    .contactus-div .title-contact h2{
+        color: #fff;
+    }
+
+    .contactus-div{
+        background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
+    }
+
+}

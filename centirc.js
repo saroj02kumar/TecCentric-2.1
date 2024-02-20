@@ -7,29 +7,29 @@ document.querySelector(".logos-left").appendChild(copyl);
 
 
 
-let menutoggle = document.querySelector("#hidden-menubar");
-let sidebar = document.querySelector(".nav");
+// let menutoggle = document.querySelector("#hidden-menubar");
+// let sidebar = document.querySelector(".nav");
 
-menutoggle.addEventListener("click", () => {
-  sidebar.classList.toggle("navx");
-});
+// menutoggle.addEventListener("click", () => {
+//   sidebar.classList.toggle("navx");
+// });
 
 
-let sidebar1 = document.querySelector(".nav")
+// let sidebar1 = document.querySelector(".nav")
 
-window.addEventListener("scroll", ()=>{
-  if (window.pageYOffset > 50) { 
+// window.addEventListener("scroll", ()=>{
+//   if (window.pageYOffset > 50) { 
       
-      sidebar1.classList.add("navy")
+//       sidebar1.classList.add("navy")
       
       
 
       
-  } if(window.pageYOffset < 50) {
-      sidebar1.classList.remove("navy")
+//   } if(window.pageYOffset < 50) {
+//       sidebar1.classList.remove("navy")
       
-  }
-});
+//   }
+// });
 
 
 

@@ -99,6 +99,7 @@ font-size: 1.5rem;
 }
 .banner img{
   height: 100%;
+  width: 100%;
   transition: ease 1s;
   animation: opa 1s;
   object-fit: cover;
