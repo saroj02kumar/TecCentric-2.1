@@ -44,11 +44,11 @@
   content: '';
 	position: absolute;
 	/* bottom: px; */
-  top:31px;
+  top:49px;
 	background-color:orange;
 	height: 4px;
 	box-sizing: border-box;
-	width: 126px;
+	width: 200px;
   }
   .service h4{
     font-size: 40px;
@@ -93,6 +93,7 @@
     text-align: left;
     color: white;
     margin-left: 60px;
+    margin-top: 4%;
     animation: trans 1.5s;
   }
   @keyframes trans{
@@ -267,6 +268,9 @@
       
     
     }
+    .service h2::before{
+      top:65px
+    }
     .service  .column {
       /* flex: 0 50%; */
       max-width: 95%;
@@ -279,14 +283,19 @@
 
     }
     .service .section-heading{
-      display: flex;
+      
       font-size: 2.5rem;
       color:black;
-      /* margin-top: 7%; */
+      padding-top: 7%;
+      
+      
     }
+    .service h1{
+    margin-top: 5%;
+    } 
     .service{
       background-color: rgb(23,40,82);
-      padding-top: 9%;
+      /* padding-top: 9%; */
     }
     
 
