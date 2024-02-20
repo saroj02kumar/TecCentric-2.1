@@ -105,7 +105,9 @@
         margin: 15% 0 0 0;
     }
 .content{
-    text-align: center;
+    text-align: left;
 }
-
+.left-div h2{
+    text-align: left;
+}
 }

@@ -12,7 +12,7 @@
   }
 
 body{
-    background-color: #fff;
+    background-color:#efeeee;
     box-sizing: border-box;
 }
 .team-banner{
@@ -250,7 +250,9 @@ body{
 
 
 .ourteam {
-    background-color: rgb(226, 223, 223);
+    /* background-color: rgb(226, 223, 223); */
+    background-color:  #efeeee;
+    border-bottom: 20px solid rgb(23,40,82);
   }
   .ourteam .row {
     display: flex;
@@ -259,10 +261,11 @@ body{
     text-align: center;
   }
   .ourteam .column {
-    width: 100%;
-  
+    /* width: 30%; */
+    flex: 0 0 33.33%;
     padding: 0.5em 0;
     margin-bottom: 1rem;
+    
   }
   .ourteam h1 {
     width: 100%;
@@ -271,7 +274,8 @@ body{
     color: #1f003b;
   }
   .ourteam .card {
-    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    /* box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1em 1em;
     border-radius: 0.6em;
     color: #1f003b;
@@ -331,6 +335,7 @@ body{
       /* flex: 0 0 33.33%; */
       width: 95%;
       padding: 0 1em;
+      flex: none;
     }
     .ourteam .card {
       padding: 5em 1em;

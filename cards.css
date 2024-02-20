@@ -155,8 +155,9 @@ height:100%;
 width:100%;
 } */
 .tec-work{
-    background: whitesmoke;
+    /* background: whitesmoke; */
     background-color: rgb(23,40,82);
+
 }
 .tec-work-head{
 text-align: center;
@@ -165,28 +166,30 @@ font-size: 1.2rem;
 border-top: 3px solid rgb(23,40,82);
 
 
+
 }
 .tec-work-head h1{
     color: white;
 }
 
 .tec-container{
-    /* margin: 80px; */
+    /* margin: 0px 0px 30px 0px; */
     width: 100%;
     /* max-width: 1200px;  */
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(23,40,82);
+    /* background: rgb(23,40,82); */
     flex-wrap: wrap;
     background-color: #fff;
+    padding: 20px 0px;
 }
 
 .tec-container .tec-card {
     height: 350px;
     width: calc(33.33% - 20px);  
     margin: 10px;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.655);
     overflow: hidden;
     position: relative;overflow: hidden;
 
