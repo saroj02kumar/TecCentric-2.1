@@ -320,9 +320,12 @@ body{
   .ourteam .card:hover .img-container {
     transform: scale(1.15);
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     .ourteam {
       padding: 1em 7em;
+    }
+    .team-banner main a{
+      font-size: 3.5rem;
     }
   }
   @media screen and (min-width: 992px) {
