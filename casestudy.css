@@ -1,4 +1,104 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
 
 
 .casestudy{
@@ -6,7 +106,8 @@
     height: auto;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: #67AEDF;
+    border-bottom: 20px solid rgb(23, 40, 82);
 
     
 }
@@ -27,10 +128,11 @@ section.show-animation .casestudy .left{
 }
 
 .casestudy .left h2{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 30px;
-    color: rgb(23,40,82);;
+    color: rgb(23,40,82);
     line-height: 120%;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .casestudy .right{
 
@@ -41,14 +143,25 @@ section.show-animation .casestudy .left{
   
 
 }
+.casestudy .left p{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 .casestudy .left p,.casestudy .left h2, .casestudy .left a{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     margin-bottom: 30px;
     
 }
 .casestudy .left a{
     text-decoration: none;
-    color: darkorange;
+    color:  rgb(23,40,82);
     font-weight: bold;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid rgb(23,40,82);
+    padding: 5px 10px;
+    border-radius: 2px;
 }
 .casestudy .right img{
   
@@ -83,7 +196,13 @@ section.show-animation   .casestudy .right img{
 .casestudy .left h2{
     font-size: 25px;
       text-align: left;
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+      padding-top: 20px;
  
+}
+
+.casestudy .left {
+    padding-bottom: 20px;
 }
 
 .casestudy .left,.right{
@@ -114,6 +233,7 @@ padding: 20px 0px
 .casestudy .right  img{
     width: 100%;
     height: auto;
+    margin-top: -10px;
 }
 .card2:nth-child(2){
     margin-left: 0px;
@@ -129,9 +249,11 @@ padding: 20px 0px
 @keyframes CaseStudyLeft {
     0%{
       transform: translate(200px,0px);
+      opacity: 0;
     }
     100%{
       transform: translate(0px,0px);
+      opacity: 1;
     }
     
   }
@@ -140,9 +262,11 @@ padding: 20px 0px
   @keyframes CaseStudyRight {
     0%{
       transform: translate(0px,200px);
+      opacity: 0;
     }
     100%{
       transform: translate(0px,0px);
+      opacity: 1;
     }
     
   }

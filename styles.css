@@ -1,3 +1,110 @@
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+      url('fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+      url('fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,68 +113,13 @@
     box-sizing: border-box;
   }
 
-  @font-face {
-    font-family: 'Ubuntu Sans';
-    src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
-        url('fonts/UbuntuSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ubuntu Sans Condensed';
-  src: url('fonts/UbuntuSans-Bold.woff2') format('woff2'),
-      url('fonts/UbuntuSans-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Houschka Pro';
-  src: 
-      url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
-      ;
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Houschka Pro';
-  src: 
-      url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
-      ;
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Basis Grotesque Pro';
-  src: 
  
-      url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),
-      ;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Basis Grotesque Pro';
-  src:url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
-      url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),;
-      
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-
 
 
 body{
   background-color: #FFF8DC;
     box-sizing: border-box;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
 }
 
 /* Top navbar */
@@ -119,6 +171,8 @@ background-image: none;
   .login-button{
     color: #000;
     border: 1px solid #0000FF;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+    font-weight: 500;
   }
   .nav-logo img{
     background-color: transparent;
@@ -194,12 +248,13 @@ background-image: none;
 
 .nav-menubar ul li a{
     text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1.2rem;
     
-    font-weight: 300;
+    font-weight: 500;
     
     padding: 5px 10px;
-    font-family: 'Basis Grotesque Pro' ;
+    
     color: #fff;
     position: relative;
     margin-top: 0.5%;
@@ -217,8 +272,9 @@ background-image: none;
         border: 1px solid #fff;
         background: none;
         padding: 5px 10px;
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
         font-size: 1.2rem;
-        font-family: 'Basis Grotesque Pro' ;
+        
         cursor: pointer;
         /* margin: 10px; */
         /* transition: 0.5s;
@@ -238,6 +294,7 @@ color: #fff;
 }
 .login-button option{
   background-color: #ffffff;
+  font-weight: 500;
   
 }
 
@@ -245,8 +302,8 @@ color: #fff;
   color: #fff;
   font-size: 1.2rem;
   text-decoration: none;
-  font-family:'Basis Grotesque Pro' ;
-  font-weight: 300;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 500;
   padding: 5px 10px;
   
 }
@@ -281,9 +338,13 @@ color: #fff;
     color: #ffffff;
      option a{
       color: #ffffff;
+      font-weight: 500;
+      font-family: "Open Sans", verdana, Helvetica, sans-serif ;
     }
   #login-button:hover{
     color: #ffffff;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
   }
    
 }
@@ -314,6 +375,8 @@ color: #fff;
 } */
 .login-button option:hover{
   color: #ffffff;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 500;
 }
 .nav-menubar ul li a:hover{
   padding: 5px 10px;
@@ -505,7 +568,8 @@ color: #fff;
     background: none;
     padding: 10px 20px;
     font-size: 1.2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
@@ -597,7 +661,7 @@ background-image: none;
     }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
 
 
 .promo{
@@ -621,7 +685,7 @@ section.show-animation .promo{
 .promo h2{
     line-height: 95%;
     font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
 
 }
 
@@ -645,6 +709,7 @@ section.show-animation .promo{
 }
 .promo .right button{
   border: 0.5px white solid;
+  border-radius: 2px;
   padding: 10px;
   background-color: rgb(23,40,82);
   cursor: pointer;
@@ -658,12 +723,14 @@ section.show-animation .promo{
 
 }
 .promo .right a{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   list-style-type: none;
   color: white;
   text-decoration: none;
   font-size: x-large;
 }
 .promo .left p{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
     color: #d6d6d6;
 }
 .promo .left{
@@ -671,6 +738,8 @@ section.show-animation .promo{
   flex-direction: column;
 }
 .promo .left p, .promo .left h2, .promo .left h5{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  
   margin-bottom: 10px;
 }
 

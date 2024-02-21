@@ -1,10 +1,109 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+      url('fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+      url('fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Poppins", sans-serif;
+  
     
 }
 *, *::before, *::after {
@@ -26,17 +125,18 @@ body{
   height: 100%;
   width: 100%;
 }
-.team-banner main a{
+/* .team-banner main a{
   display: inline-block;
   width: max-content;
   height: max-content;
   color: antiquewhite;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-size: 7.8rem;
   font-weight: bold;
   margin-top: 50px;
   margin-left: 50px;
   opacity: 1;
-}
+} */
 
 
 
@@ -83,6 +183,8 @@ body{
 }
 .detailcontainer p{
     margin: 0;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
 }
 .teamcontents{
     height: auto;
@@ -91,13 +193,17 @@ body{
 }
 #about {
     font-size: larger;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
 }
 #role{
   color: white;
   margin: 0;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-size: larger;
 }
 #name{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   text-align: left;
   /* margin-bottom: 5px; */
 }
@@ -123,10 +229,10 @@ body{
     padding-left: 30px;
   }
 }
-@media screen and (max-width: 768px)
+/* @media screen and (max-width: 768px)
 {
   
-}
+} */
 
 
 
@@ -142,6 +248,7 @@ body{
 #ourteamheading{
     display: block;
     font-size: xx-large;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     text-align: center;
     background-color: whitesmoke;
     color: rgb(121, 117, 117);
@@ -257,7 +364,7 @@ body{
   .ourteam .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 2em 1em;
+    padding: 1em 1em 2em 1em;
     text-align: center;
   }
   .ourteam .column {
@@ -265,12 +372,15 @@ body{
     flex: 0 0 33.33%;
     padding: 0.5em 0;
     margin-bottom: 1rem;
+    transition: ease all 0.4s;
     
   }
   .ourteam h1 {
     width: 100%;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 900;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5rem;
     color: #1f003b;
   }
   .ourteam .card {
@@ -282,6 +392,8 @@ body{
     cursor: pointer;
     transition: 0.3s;
     background-color: #ffffff;
+    
+    
   }
   .ourteam .card .img-container {
     width: 8em;
@@ -290,16 +402,19 @@ body{
     padding: 0.5em;
     border-radius: 50%;
     margin: 0 auto 1em auto;
+    
   }
   .ourteam .card img {
     width: 100%;
     border-radius: 50%;
   }
   .ourteam .card h3 {
-    font-weight: 500;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 800;
   }
   .ourteam .card p {
-    font-weight: 300;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 1em 0 1.5em 0;
     letter-spacing: 2px;
@@ -313,6 +428,7 @@ body{
   }
   .ourteam .card a {
     text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     color: inherit;
     font-size: 1.4em;
     
@@ -320,6 +436,7 @@ body{
   .ourteam .card:hover {
     background: linear-gradient(#6045ea, #8567f7);
     color: #ffffff;
+    
   }
   .ourteam .card:hover .img-container {
     transform: scale(1.15);
@@ -359,5 +476,8 @@ body{
       /* flex: 0 0 33.33%; */
       max-width: 95%;
       padding: 0 1em;
+      
     }
   }
+
+  

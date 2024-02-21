@@ -1,4 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 
 /* * {
     margin: 0;
@@ -141,13 +238,13 @@ padding-left:20px;
 } */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
+
 }
 
 /* html,body{
@@ -163,13 +260,18 @@ width:100%;
 text-align: center;
 padding: 2rem 0;
 font-size: 1.2rem;
-border-top: 3px solid rgb(23,40,82);
+font-family: "Open Sans", verdana, Helvetica, sans-serif;
+/* border-top: 3px solid rgb(23,40,82); */
 
 
 
 }
 .tec-work-head h1{
     color: white;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 900;
+
 }
 
 .tec-container{
@@ -192,6 +294,7 @@ border-top: 3px solid rgb(23,40,82);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.655);
     overflow: hidden;
     position: relative;overflow: hidden;
+    border-radius: 2px;
 
 }
 
@@ -222,6 +325,9 @@ border-top: 3px solid rgb(23,40,82);
     /* padding-left: 10px; */
     margin-top: 10px;
     list-style-type: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
 }
 /* .intro ul li{
     margin-left: 10px;   
@@ -231,18 +337,21 @@ border-top: 3px solid rgb(23,40,82);
     margin: 0px;
     /* padding-left:20px; */
     /* padding-bottom: 10px; */
-    font-size: 23px;
+    font-size: 1.438rem;
     font-weight: 500;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
 }
 
 .intro p {
-    font-size: 16px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+    font-size: 1rem;
     margin-top:10px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     /* margin-left:20px; */
     visibility: hidden;
     opacity: 0;
+    text-align: left;
 }
 
 /* .intro p span {
@@ -281,6 +390,11 @@ border-top: 3px solid rgb(23,40,82);
     }
     .tec-container .tec-card
     {width: 90%;}
+
+    .tec-work-head h1{
+        font-size: 1.5rem;
+        
+    }
 }
 
 @media only screen and (max-width: 450px) {

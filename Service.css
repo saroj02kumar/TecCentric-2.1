@@ -5,7 +5,104 @@
     font-family: "Poppins", sans-serif;
   } */
 
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+ 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+      url('fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+      url('fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
 
   .service section {
     height: auto;
@@ -21,6 +118,14 @@
   .service img{
     mix-blend-mode: white;
   }
+  .service .banner{
+    width: 100vw;
+    height: 100vh;
+  }
+  .service .banner img{
+    width: 100vw;
+    height: 100vh;
+  }
   .service{
     text-align: center;
     /* padding: 50px 0px; */
@@ -29,7 +134,7 @@
     padding-top: 10vh;
     
   }
-  .service h2{
+  /* .service h2{
     position: relative;
     display: inline;
     font-size: 25px;
@@ -37,20 +142,21 @@
     font-family: sans-serif;
     
 
-  }
+  } */
 
 
-  .service h2::before{
+  /* .service h2::before{
   content: '';
 	position: absolute;
-	/* bottom: px; */
+	
   top:49px;
 	background-color:orange;
 	height: 4px;
 	box-sizing: border-box;
 	width: 200px;
-  }
+  } */
   .service h4{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 40px;
     color: rgb(23,40,82);
     margin: 30px 0;
@@ -69,25 +175,26 @@
     width: 100%;
     justify-content: space-evenly;
     /* align-items: center; */
-    padding: 15px;
+    padding: 15px 15px 90px 15px;
     /* margin-bottom: 25px; */
     /* margin-top: 25px; */
     box-shadow: 0px 5px 5px solid rgb(0, 0, 0.8);
     background-color: rgb(23,40,82);
     align-items: center;
     position: relative;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    
   }
-  .service .contain h2{
+  /* .service .contain h2{
     position: absolute;
     inset: 0;
-    /* top:3%; */
+    top:3%;
     left: 7%;
     color: #ffffff;
     width: max-content;
     height: fit-content;
-   }
-   .service .contain h1{
+   } */
+   /* .service .contain h1{
     width: 35%;
     font-weight: normal;
     text-align: left;
@@ -95,7 +202,7 @@
     margin-left: 60px;
     margin-top: 4%;
     animation: trans 1.5s;
-  }
+  } */
   @keyframes trans{
     0%{
       transform: translateX(-100px);
@@ -111,15 +218,23 @@
     }
   }
   .service .contain p{
-    margin-top: 30px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 30px 0px;
     max-width: fit-content;
+    color: #ffffff;
   }
-  .service .contain h1 a{
+  .service .contain a{
     color: orange;
     border: 3px solid white;
-    padding: 5px;
+    padding: 5px 20px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
+    margin-left: -40px;
+    margin-bottom: 10px;
   }
   .service .contain button{
     margin-top: 20px;
@@ -167,10 +282,13 @@
   }
 
  
-  .service .section-heading{
-    font-size: 2.5rem;
-    color:black;
-    margin: 20px 0px;
+  .service-left .section-heading{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #ffffff;
+    
+    
   }
   .service .row {
     display: flex;
@@ -205,14 +323,17 @@
     transform: translateX(0) ; 
   }
   .service h3 {
-    font-size: 20px;
-    font-weight: 600;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
     color: #1f194c;
     margin: 1em 0;
   }
   .service .card  p {
-    color: #575a7b;
-    font-size: 15px;
+    color: #1f194c;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
     line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
@@ -379,6 +500,15 @@
       opacity: 1;
       
     }
+    .service .service-left h2{
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: #ffffff;
+      text-align: center;
+      
+      
+    }
     .service .card{
       transform: none;
       padding: 20px 5px;
@@ -425,11 +555,12 @@
         font-size: 90%;
         text-align: center;
       }
-      .service .contain h1 p{
-        text-align: center;
+       .service-left p{
+        text-align: left;
         width: 100%; 
         display: inline-block;  
         margin-top: 20px; 
+        color: #ffffff;
       }
       .service .contain img{
         /* height: 20vh;

@@ -10,7 +10,7 @@ menutoggle.addEventListener("click", () => {
 
 
 window.addEventListener("scroll", ()=>{
-  if (window.pageYOffset > 50) { 
+  if (window.pageYOffset > 20) { 
       
       sidebar1.classList.add("navy")
       

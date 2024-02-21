@@ -1,10 +1,113 @@
 
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+      url('fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+      url('fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+
 .aboutus {
   text-align: center;
   padding: 10px 0px;
-  margin: 0px 20px 20px;
+  /* margin: 0px 20px 20px; */
   background-color: white;
   height: auto;
+  
 }
 
 .aboutus div {
@@ -16,23 +119,21 @@
   height: 100px;
   width: 100px;
 }
+/* 
+#aboutush4 {
 
-.aboutus div h4 {
-
-font-size: 1.5rem;
-
-  font-family:  Arial, Helvetica, sans-serif;
-  padding: 30px 0px;
+font-size: 25px;
+  
  
 
-}
+} */
 
 .aboutus div span {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: rgb(23, 40, 82);
   display: inline-block;
   padding: 10px 0px;
-   /*Padding left right changed to 0px  */
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-weight: bold;
   margin: 5px 0px 10px;
   position: relative;
@@ -62,26 +163,36 @@ font-size: 1.5rem;
 .aboutus .about-cards .about-card {
   width: 100%;
   height: auto;
+  
 }
 
 .aboutus .about-cards .about-card h3 {
   color: rgb(23, 40, 82);
+  text-align: center;
 }
 
-.aboutus .about-cards .about-card p {
+.about-card p {
   display: inline-block;
-  font-size: large;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+  font-size: 1.2rem;
   font-weight: 500;
-  width: 95%;
+  width: 98%;
   text-align: center;
+  padding: 0px  20px 20px 20px;
 }
 .readmore{
   margin-top: 10px;
 }
 .readmore a{
-  color: orange;
-  font-size: x-large;
-  font-weight: bold;
+  color: rgb(23,40,82);
+  font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+  font-size: 1.3rem;
+  font-weight: 600;
+  
+  border: 1px solid rgb(23,40,82);
+  padding: 5px 10px;
+  border-radius: 2px;
+
 }
 
 @media screen and (max-width:760px){
@@ -118,15 +229,21 @@ font-size: 1.5rem;
   }
 }
 .about-us-container #aboutush4{
-  font-size: 2rem;
+  font-size: 1.3rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 30px 20px;
+  text-align: left;
 }
 
-.about-us-container h3{
+ .about-card h3{
   display: inline-block;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   width: 100%;
   margin: 30px 0px 20px;
+  
 }
 .about-second{
   height: auto;
@@ -141,6 +258,7 @@ font-size: 1.5rem;
   /* list-style-type: square; */
   height: 60vh;
   width: 100%;
+  padding: 40px 0 40px 0;
   /* background: linear-gradient(180deg, #4abaff ,rgb(0, 63, 221), rgb(23, 40, 82) ); */
   /* background-color:  rgb(99, 110, 158); */
   background-color: rgb(45, 43, 43);
@@ -149,13 +267,16 @@ font-size: 1.5rem;
 .aboutusbottom ul{
   text-align: center;
   width: 75%;
+  
 }
 .aboutusbottom ul li{
-  color: antiquewhite;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   list-style-type: square;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
   text-align: left;
+  padding: 10px;
 }
 /* .redirect-button{
  display: flex;
