@@ -236,7 +236,15 @@ body{
   .ourteam .row{
     text-align: center;
   }
+  .team-banner main{
+    background-image: url(images/ourteam/ourteam.jpg);
+    background-size: cover;
+  background-position: center right;
+  height: 100%;
+  width: 100%;
 }
+  }
+
 /* @media screen and (max-width: 768px)
 {
   
@@ -471,6 +479,13 @@ body{
     margin: 1rem 0;
     padding: 0 0 0 25px;
   }
+  .team-banner main{
+    background-image: url(images/ourteam/ourteam.jpg);
+    background-size: cover;
+  background-position: center right;
+  height: 100%;
+  width: 100%;
+}
 }
   
   @media screen and (min-width: 992px) {
