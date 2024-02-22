@@ -104,7 +104,7 @@
 .casestudy{
     display: flex;
     height: auto;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     background-color: #67AEDF;

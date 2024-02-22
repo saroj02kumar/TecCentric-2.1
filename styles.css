@@ -148,7 +148,7 @@ box-sizing: border-box;
 .nav:hover{
   opacity: 1;
 background-image: none;
-  background-color: #FFF8DC;
+  background-color: whitesmoke;
   a{ color: #000;}
   .login-button{
     color: #000;
@@ -164,7 +164,7 @@ background-image: none;
 .navy{
   opacity: 1;
 background-image: none;
-  background-color: #FFF8DC;
+  background-color: whitesmoke;
   position: sticky;
   top: 0%;
   a{ color: #000;}
@@ -620,7 +620,7 @@ color: #000;
 .navy{
   opacity: 1;
 background-image: none;
-  background-color: #FFF8DC;
+  background-color: whitesmoke;
   position: sticky;
   top: 0%;
   a{ color: #000;}

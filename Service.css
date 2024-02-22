@@ -287,8 +287,21 @@
     font-size: 2.3rem;
     font-weight: 900;
     color: #ffffff;
+    /* position: relative;
+    
+    top: 0%;
+    left: 0%;
+    width: 100%; */
     
     
+    
+    
+  }
+  
+  .service-left{
+    width: 100%;
+    text-align: center;
+    align-items: center;
   }
   .service .row {
     display: flex;
@@ -509,6 +522,7 @@
       font-weight: 900;
       color: #ffffff;
       text-align: center;
+     
       
       
     }
@@ -619,4 +633,13 @@
     }
 
 
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .service{
+    margin: 0px;
+    padding: 0px;
   }
