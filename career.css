@@ -405,7 +405,7 @@ line-height: 2.7rem;
 
  .apply-cv label {
     display: block;
-    margin-bottom: 4px;
+    margin: 14px 0px -15px 0px;
     color: #555;
     line-height: 2px;
 }
@@ -449,7 +449,8 @@ line-height: 2.7rem;
 }
 #upload{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
+
 }
 
 @media (max-width: 768px) {
@@ -487,6 +488,10 @@ line-height: 2.7rem;
     }
     .career_text{
         font-size: 0.8rem;
+        
+    }
+    #upload{
+        font-size: 0.7rem;
         
     }
 }

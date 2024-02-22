@@ -104,10 +104,11 @@
 .casestudy{
     display: flex;
     height: auto;
+    width: 100vw;
     justify-content: space-around;
     align-items: center;
     background-color: #67AEDF;
-    border-bottom: 20px solid rgb(23, 40, 82);
+    /* border-bottom: 20px solid rgb(23, 40, 82); */
 
     
 }
@@ -180,7 +181,10 @@ section.show-animation   .casestudy .right img{
 }
 
 
-
+section.animation-section.show-animation{
+    margin-left: -5px;
+    padding-left: 0px;
+} 
 
  @media screen and (max-width: 760px){
 
