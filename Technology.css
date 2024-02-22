@@ -1,0 +1,45 @@
+*{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+*, *::before, *::after {
+        box-sizing: border-box;
+     }
+
+.tech-banner{
+    height: 100vh;
+    width: 100%;
+    padding: 10rem 0 0 5rem;
+    background: url(images/aboutusbackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tech-banner h1{
+    font-size: 5rem;
+    color: aliceblue;
+}
+.tech-banner p{
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 55px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 420px){
+    .tech-banner{
+        height: 50vh;
+        padding: 35% 0 0 3rem;
+
+    }
+    .tech-banner h1{
+        font-size: 1.5rem;
+    }
+    .tech-banner p{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    
+}

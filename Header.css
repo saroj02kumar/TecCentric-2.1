@@ -148,7 +148,7 @@ header{
 
 .img-slider .slide .info{
   position: absolute;
-  top: 0;
+  top: 10%;
   padding: 15px 30px;
 }
 

@@ -156,6 +156,10 @@ background-image: none;
   }
   .nav-logo img{
     background-color: transparent;
+    display: block;
+  }
+  .nav-whitelogo img{
+    display: none;
   }
   
   
@@ -176,6 +180,10 @@ background-image: none;
   }
   .nav-logo img{
     background-color: transparent;
+    display: block;
+  }
+  .nav-whitelogo img{
+    display: none;
   }
   
 }
@@ -195,11 +203,21 @@ background-image: none;
 
 .nav-logo img{
   width: 15rem;
-  background-color: #ffffff30;
+  
+  padding: 0px 15px ;
+    border-radius: 2px;
+    display: none;
+     
+}
+
+.nav-whitelogo img{
+  width: 15rem;
+  
   padding: 0px 15px ;
     border-radius: 2px;
      
 }
+
 
 /* .nav-logo h1 a{
     text-decoration: none;
@@ -226,6 +244,13 @@ background-image: none;
   margin-top: 0.4%;
     
     
+}
+.nav-whitelogo{
+  width: auto;
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-top: 0.4%;
 }
 
 /* .nav h1 span{
@@ -416,8 +441,15 @@ color: #fff;
    .nav-logo{
     align-items: center;
    }
+   .nav-whitelogo{
+    align-items: center;
+   }
     .nav-logo img{
         padding: 0px 5px 0px 5px;
+        background-color: transparent;
+    }
+    .nav-whitelogo img{
+      padding: 0px 5px 0px 5px;
         background-color: transparent;
     }
 
@@ -633,6 +665,12 @@ background-image: none;
     font-size: 1.5rem;
   }
   .nav-logo img{
+    background-color: transparent;
+    display: block;
+  }
+  .nav-whitelogo img{
+    display: none;
+  } .nav-whitelogo img{
     background-color: transparent;
   }
   
