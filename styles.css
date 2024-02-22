@@ -462,10 +462,11 @@ color: #fff;
     display: block;
     text-align: center;
     
-    background-color:   #ffffff48;
+    background-image: linear-gradient( rgba(66, 64, 64, 0.628), rgba(66, 64, 64, 0.527), rgba(147, 138, 138, 0.146));
+
 
 }
-
+/* #ffffff48 */
 /* Company Titel */
 
 /* .nav-logo h1 a{
