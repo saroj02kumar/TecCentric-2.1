@@ -110,6 +110,7 @@
     justify-content: center;
     background-color:white;
     padding: 7px 0;
+    background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
     
 }
 .container{
@@ -137,7 +138,7 @@
 }
 .left-div h2{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: rgb(23,40,82);
 
 }
@@ -152,8 +153,9 @@
 .container .right-div{
     width: 50%;
     height: 550px;
-    background: url(images/img1.png);
-    background-size: cover;
+    background: url(images/img1.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
     border-radius: 2px;
     z-index: 1;
     transition: ease-in  0.8s;
@@ -200,6 +202,7 @@
         margin: 5px;
         padding: 2px; */
        display: none;
+
         
     }
     .container .left-div{
@@ -208,11 +211,14 @@
         right: 0px;
         top: -100px;
         margin: 15% 0 0 0;
+        padding: 3rem 1rem;
     }
 .content{
     text-align: left;
 }
 .left-div h2{
     text-align: left;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.7rem;
 }
 }

@@ -179,12 +179,12 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 768px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
 }
-.row{
+.footer .row{
 	padding-left: 20px;
 }
 /* .footer-col h4::before{

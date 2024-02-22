@@ -103,8 +103,9 @@
   
   .client span{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     font-weight: 900;
+    padding-bottom: 10px;
   }
 
   

@@ -178,6 +178,8 @@ input[type="radio"]{
     border-radius: 10px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0 ,0.15),
     -6px -6px 10px -1px rgba(255, 255, 255 ,0.7) ;
+    height: 300px;
+    width: 500px;
 }
 
 .accordion input[type="radio"]:checked + label + .behaviour{
@@ -203,5 +205,10 @@ input[type="radio"]{
 
     .accordion{
         width: 90%;
+    }
+
+    .behaviour img{
+        height: 190;
+        width: 340px;
     }
 }

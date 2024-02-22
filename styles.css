@@ -117,7 +117,7 @@
 
 
 body{
-  background-color: #FFF8DC;
+  /* background-color: #FFF8DC; */
     box-sizing: border-box;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
 }
@@ -741,7 +741,7 @@ section.show-animation .promo{
   transition: 0.5s;
   animation: promoRight 1s linear ;
 }
-.promo .left, .right{
+.promo .left, .promo .right{
     width: 50%;
     padding: 5px 0px;
     display: flex;
@@ -754,6 +754,7 @@ section.show-animation .promo{
    transition: 0.5s;
     animation: promoTop 1s linear ;
     
+    
 }
 .promo .right button{
   border: 0.5px white solid;
@@ -762,6 +763,7 @@ section.show-animation .promo{
   background-color: rgb(23,40,82);
   cursor: pointer;
   overflow: hidden;
+  margin-left: 15px;
   
 }
 .promo .right button:hover{
@@ -775,7 +777,8 @@ section.show-animation .promo{
   list-style-type: none;
   color: white;
   text-decoration: none;
-  font-size: x-large;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .promo .left p{
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
@@ -816,41 +819,79 @@ section.show-animation .promo{
   
 }
 
+@media screen and (max-width:960px){
+
+  .promo {
+    height: auto;
+    flex-wrap: wrap;
+    transform: translateX(0);
+    padding: 20px 5px;
+    
+    justify-content: left;
+    text-align: left;
+  }
+  .promo .left{
+    text-align: left;
+    margin-left: 20px;
+    justify-content: left;
+  }
+}
+@media screen and (max-width:460px){
+
+  .promo {
+    height: auto;
+    flex-wrap: wrap;
+    transform: translateX(0);
+    padding: 20px 5px;
+    
+    justify-content: left;
+    text-align: left;
+  }
+  .promo .left{
+    text-align: left;
+    margin-left: 20px;
+    justify-content: left;
+  }
+}
+
 
 
 
 @media screen and (max-width:760px){
+  
 
 .promo {
   height: auto;
   flex-wrap: wrap;
   transform: translateX(0);
   padding: 20px 5px;
-  align-items: center;
-  justify-content: center;
+  
+  justify-content: left;
   text-align: left;
 }
 .promo .left{
   text-align: left;
   margin-left: 20px;
+  justify-content: left;
 }
 
 
 .promo .left p, .promo .left h2, .promo .left h5{
   text-align: left;
-  margin: 10px 20px;
+  margin: 5px 10px 10px 20px;
 }
 .promo .left p{
   text-align: left;
 }
-.promo .left,.right{
+.promo .left, .promo .right{
 
   width: 100%;
   animation: none;
   transform: translateX(0);
   padding: 0px;
   margin: 10px 0px;
-  
+  text-align: left;
+  justify-content: left;
 }
 
 .promo h2{
@@ -860,15 +901,15 @@ line-height: 30px;
 }
 
 
-section.animated-section.show-animation{
+/* section.animated-section.show-animation{
 
 
   padding: 10px;
   
 
-}
+} */
 section.show-animation .promo {
-text-align: center;
+text-align: left;
 }
 
 
@@ -1010,7 +1051,7 @@ transition: 0.2s linear;
 .client{
   height: auto;
   padding: 20px 0px;
-  margin:20px 0px;
+  /* margin:20px 0px; */
   background-color: rgb(23,40,82); 
   text-align: center;
   
@@ -1020,7 +1061,7 @@ transition: 0.2s linear;
   font-size: 2.5rem;
   display: inline-block;
   color: white ;
-  padding: 10px 30px;
+  padding: 0px 30px;
   font-weight: bold;
   background-color: rgb(23,40,82);
 

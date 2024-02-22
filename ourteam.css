@@ -228,6 +228,14 @@ body{
   .detailcontainer{
     padding-left: 30px;
   }
+  .ourteam .row h1{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+  }
+  .ourteam .row{
+    text-align: center;
+  }
 }
 /* @media screen and (max-width: 768px)
 {
@@ -358,8 +366,8 @@ body{
 
 .ourteam {
     /* background-color: rgb(226, 223, 223); */
-    background-color:  #efeeee;
-    border-bottom: 20px solid rgb(23,40,82);
+    background-color:   rgb(23,40,82);
+    border-bottom: 10px solid rgb(23,40,82);
   }
   .ourteam .row {
     display: flex;
@@ -381,7 +389,7 @@ body{
     font-weight: 900;
     text-align: center;
     font-size: 2.5rem;
-    color: #1f003b;
+    color: #ffffff;
   }
   .ourteam .card {
     /* box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1); */
@@ -443,7 +451,7 @@ body{
   }
   @media screen and (max-width: 768px) {
     .ourteam {
-      padding: 1em 0em;
+      padding: 0.5em 0em;
     }
     .team-banner main a{
       font-size: 3.5rem;
