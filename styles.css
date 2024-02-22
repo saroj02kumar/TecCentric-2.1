@@ -161,7 +161,9 @@ background-image: none;
   .nav-whitelogo img{
     display: none;
   }
-  
+  #hidden-menubar{
+    color: #000;
+  }
   
 }
 
@@ -431,7 +433,7 @@ color: #fff;
 
     #hidden-menubar{
         font-size: 2rem;
-        color: #000;
+        color: #ffffff;
         display:block;
         line-height: 1px;
         position: absolute;
@@ -672,6 +674,9 @@ background-image: none;
     display: none;
   } .nav-whitelogo img{
     background-color: transparent;
+  }
+  #hidden-menubar{
+    color: #000;
   }
   
 }

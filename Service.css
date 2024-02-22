@@ -321,6 +321,7 @@
     cursor: pointer;
     transition: 2s;
     transform: translateX(100%);
+    margin-top: 2%;
 
 
   }
@@ -552,7 +553,7 @@
         text-align: center;
       }
       .service .contain .service-left p{
-        text-align: center;
+        text-align: left;
         width: 100%; 
         font-size: 1.4rem;
  
