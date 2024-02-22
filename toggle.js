@@ -1,9 +1,10 @@
 let menutoggle = document.querySelector("#hidden-menubar");
 let sidebar1 = document.querySelector(".nav");
-// let sidebar = document.querySelector(".nav")
+ //let sidebar = document.querySelector(".navx")
 
 menutoggle.addEventListener("click", () => {
   sidebar1.classList.toggle("navx");
+  
 });
 
 
