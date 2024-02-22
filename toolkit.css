@@ -175,7 +175,7 @@ input[type="radio"]{
 }
 
 .behaviour img{
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0 ,0.15),
     -6px -6px 10px -1px rgba(255, 255, 255 ,0.7) ;
     height: 300px;
@@ -208,7 +208,8 @@ input[type="radio"]{
     }
 
     .behaviour img{
-        height: 190;
-        width: 340px;
+        height: 170px;
+        width: 300px;
+        border-radius: 2px;
     }
 }
