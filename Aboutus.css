@@ -205,15 +205,15 @@ font-size: 25px;
     .aboutus .about-cards {
    flex-direction: column;
       }
-
+      .about-p{
+        display: none;
+      }
+      .about-h2{
+        display: none;
+      }
 }
 
-.about-p{
-  display: none;
-}
-.about-h2{
-  display: none;
-}
+
 
 .banner{
   height: 100vh;
