@@ -110,7 +110,7 @@
     justify-content: center;
     background-color:white;
     padding: 7px 0;
-    background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
+    /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%); */
     
 }
 .container{
