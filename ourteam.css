@@ -431,7 +431,7 @@ body{
   .ourteam .card p {
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 1em 0 1.5em 0;
     letter-spacing: 2px;
   }

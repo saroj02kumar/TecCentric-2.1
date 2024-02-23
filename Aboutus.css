@@ -208,7 +208,12 @@ font-size: 25px;
 
 }
 
-
+.about-p{
+  display: none;
+}
+.about-h2{
+  display: none;
+}
 
 .banner{
   height: 100vh;
@@ -334,4 +339,37 @@ font-size: 25px;
     flex-wrap: wrap;
     height: 45vh;
   }
+  .about-p{
+    display: none;
+  }
+  .about-h2{
+    display: none;
+  }
+}
+
+.about-h2{
+  color: #ffffff;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 2rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 900;
+  height: fit-content;
+  width: fit-content;
+}
+
+.about-p{
+  color: #ffffff;
+  position: absolute;
+  top: 30%;  left: 5%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  height: fit-content;
+  width: fit-content;
+}
+
+.banner{
+  position: relative;
 }
