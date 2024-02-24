@@ -1,104 +1,3 @@
-
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
-        url('fonts/OpenSans-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
-        url('fonts/OpenSans-ExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
-        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
-        url('fonts/OpenSans-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
-        url('fonts/OpenSans-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('fonts/OpenSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
-        url('fonts/OpenSans-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
-        url('fonts/OpenSans-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
-        url('fonts/OpenSans-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
-        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-
-
-
 *{
     margin:0;
     padding:0;
@@ -110,11 +9,15 @@ html,body{
     width:100%;
 }
 body{
-    background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
+    /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
+     */
+     /* background:rgb(23,40,82) */
+     background:white;
 }
 
 .contact-image img{
     width: 100%;
+    height:70vh;
 }
 
 .contactus-div{
@@ -123,7 +26,7 @@ width:100%;
 padding:40px 100px;
 }
 .contactus-div .title-contact{
-    padding-top: 3%;
+    /* padding-top: 1%; */
     display:flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +54,8 @@ padding:40px 100px;
 
 .contact{
     padding:40px;
-    background: #fff;
+    background:rgb(23,40,82) ;
+    /* background: #fff; */
     box-shadow: 0 5px 35px rgba(0,0,0,0.15);
     border-radius: 2px;
 }
@@ -168,7 +72,8 @@ padding:40px 100px;
     
 }
 .contact h3{
-    color:#0e3959;
+    /* color:#0e3959; */
+    color:#fff;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.4em;
@@ -199,7 +104,9 @@ padding:40px 100px;
     width:100%;
 }
 .inputBox span{
-    color:rgb(23,40,82);
+    /* color:rgb(23,40,82); */
+    color:white;
+
     margin-top:10px;
     margin-bottom:5px;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
@@ -210,7 +117,9 @@ padding:40px 100px;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1.1em;
     outline: none;
-    border:1px solid #333;
+    border:1px solid #05062f;
+    
+     /* border:1px solid #fff; */
     border-radius: 2px;
 }
 .inputBox textarea{
@@ -218,7 +127,7 @@ padding:40px 100px;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1.1em;
     outline: none;
-    border:1px solid #333;
+    border:1px solid #05062f;
     /* resize:none; */
     min-height: 220px;
     margin-bottom: 10px;
@@ -226,8 +135,11 @@ padding:40px 100px;
     
 }
 .inputBox input[type="submit"]{
-    background: rgb(23,40,82);
-    color:#fff;
+    /* background: rgb(23,40,82); */
+    background: white;
+
+    /* color:#fff; */
+    color:rgb(23,40,82); 
     border:none;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -239,15 +151,21 @@ padding:40px 100px;
 
 }
 .inputBox ::placeholder{
-    color:#999;
+    /* color:#999; */
+    color:rgb(23,40,82)
 }
 
 /* info */
+/*  */
 .info{
-background: #0e3959;
+/* background:#0e3959; */
+/* background:white; */
+background: rgb(23,40,82);
+
 }
 .info h3{
     color:#fff;
+    /* color:rgb(23,40,82); */
 }
 .info .infoBox div{
 display:flex;
@@ -259,7 +177,11 @@ margin-bottom: 10px;
     min-width:40px;
     height:40px;
     color:#fff;
+    /* color:rgb(23,40,82); */
+
     background:#18b7ff;
+    /* background:rgb(23,40,82); */
+
     display:flex;
     justify-content: center;
     align-items: center;
@@ -272,11 +194,15 @@ margin-bottom: 10px;
 }
 .info .infoBox div p{
     color:#fff;
+    /* color:rgb(23,40,82); */
+
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1rem;
 }
 .info .infoBox div a{
     color:#fff;
+    /* color:rgb(23,40,82); */
+
     text-decoration: none;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1rem;
@@ -296,10 +222,15 @@ margin-bottom: 10px;
     color:#fff;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 2em;
-    color:#ccc;
+    /* color:#ccc; */
+    /* color:rgb(23,40,82); */
+
+
 }
 .sci li a:hover{
     color:#fff;
+    /* color:rgb(23,40,82); */
+
 }
 .map{
     padding:0;
@@ -311,14 +242,18 @@ margin-bottom: 10px;
 /* Responsive Design */
 @media (max-width:991px){
     body{
-        background: #0e3959;
+        /* background: #0e3959; */
+        background: rgb(23,40,82);
+
     }
     .contactus-div{
         padding:20px;
     }
-    .contactus-div .title-contact{
+    /* .contactus-div .title-contact{
         margin-top: 3%;
-    }
+        margin-top: 1%;
+
+    } */
     .contact-box{
         position:relative;
         display:grid;
@@ -353,20 +288,33 @@ margin-bottom: 10px;
 
 
 @media (max-width:768px){
-    .contactus-div .title-contact{
-        margin-top: 3%;
+    /* .contactus-div .title-contact{
+        margin-top: 3%; 
+         margin-top: 1%;
+
     
-    }
-    .contactus-div .title-contact h2{
+    } */
+    /* .contactus-div .title-contact h2{
         color: #fff;
-    }
+    } */
 
     .contactus-div{
-        background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
+        background:white;
+        /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%); */
     }
     .contact-image img{
         width: 100%;
-        height: 45vh;
+        /* height: 45vh; */
+        height: 65vh;
+
     }
 
 }
+
+
+/* .aboutusbottom{
+    background-color: #262626;
+}
+.Bg-aboutus{
+    background-color: #262626;
+} */

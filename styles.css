@@ -728,7 +728,7 @@ background-image: none;
 
 
 .promo{
-    height: 50vh;
+    height: 60vh;
     display: flex;
     padding: 50px 30px;
     align-items: center;
@@ -747,7 +747,7 @@ section.show-animation .promo{
 }
 .promo h2{
     line-height: 95%;
-    font-size: xx-large;
+    font-size: 2rem;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
 
 }
@@ -796,6 +796,7 @@ section.show-animation .promo{
   font-weight: 600;
 }
 .promo .left p{
+  font-size: 1.2rem;
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
     color: #d6d6d6;
 }
@@ -809,7 +810,11 @@ section.show-animation .promo{
   margin-bottom: 10px;
 }
 
-
+.promo .left h5{
+  font-size: 1.5rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 500;
+}
 
 
 
@@ -1067,17 +1072,18 @@ transition: 0.2s linear;
   height: auto;
   padding: 20px 0px;
   /* margin:20px 0px; */
-  background-color: rgb(23,40,82); 
+  background-color: #ffffff; 
   text-align: center;
   
 }
 
 .client span{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-size: 2.5rem;
   display: inline-block;
-  color: white ;
+  color: #262626 ;
   padding: 0px 30px;
   font-weight: bold;
-  background-color: rgb(23,40,82);
+  background-color: #ffffff;
 
 }

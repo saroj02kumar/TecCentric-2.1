@@ -97,133 +97,130 @@
 }
 
 
-
 *{
-    padding: 0;
     margin: 0;
-
+    padding: 0;
 }
-.Bg-img{
-    height: 110vh;
+
+.service-card{
+    padding: 5% 0%;
+    height: 100%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:white;
-    padding: 10px 0;
+    background-color: #262626;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
-    /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%); */
+    justify-content: space-between;
+    grid-auto-columns: 1fr;
     
 }
-/* #262626 */
-.container{
+.service-card pre{
+    color: rgb(179, 174, 174);
+   
+}
+
+.service-card .content-left{
+    width: 90%; 
+    padding-left: 5%;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.service-card .content-right{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.service-card .content-right img{
+    height: 100%;
     width: 100%;
-    height: auto;
-    margin: 0% auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
+    border-radius: 15px;
+
 }
-.container .left-div{
+
+/* .service-card .content-left{
+    padding: 5%;
+}
+.service-card .content-right{
     width: 50%;
-    height: auto;
-    background-color:#262626;
-    padding: 5rem 1rem;
-    border-radius: 2px;
-    position: relative;
-    right: -100px;
-    /* box-shadow: 3px 3px 3px rgb(92, 92, 94); */
-    box-shadow: 5px 5px 10px rgb(94, 92, 92);
-    transition: ease all 0.8s;
-    z-index: 5;
+} */
+
+.service-card .content-left h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    padding: 15px 0px;
+    color: #ffffff;
+}
+
+.service-card .content-left p{
+font-size: 1.125rem;
+font-weight: 500;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    padding: 15px 0px;
+width: 100%;
+color: #ffffff;
+}
+
+.service-card .content-left div{
+    margin-top: 2%;
+}
+.service-card-button{
+    margin: 5%;
+}
+
+.service-card-button a{
+    font-size: 1.2rem;
+font-weight: 600;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    padding: 10px 20px;
+width: fit-content;
+color: #ffffff;
+background-color: rgb(23,40,82);
+
+text-decoration: none;
+}
+
+
+@media screen and (max-width:768){
+    .service-card{grid-template-columns: 1fr;}
     
 }
-.left-div h2{
-    font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 2.1rem;
-    color: #ffffff;
+@media screen and (max-width: 768px) {
 
-}
-.left-div p{
-    font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin: 2.5rem 0;
-    color: #ffffff;
-
-}
-
-.container .right-div{
-    width: 50%;
-    height: 650px;
-    background: url(images/img1.jpg);
-    background-size: 140%;
-    background-repeat: no-repeat;
-    border-radius: 2px;
-    z-index: 1;
-    transition: ease-in  0.8s;
-    margin-right: 5%;
-      
-}
-.container .left-div:hover{
-   transform: scale(1.1);
-
-}
-/* .container .right-div:hover{
-    transform: scale(1.1);
- 
- } */
-.container .left-div .content a{
-    text-decoration: none;
-    font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size:20px;
-    margin: 3rem 0;
-    padding: 1rem 1rem;
-    color: rgb(23,40,82);
-    background-color: #ffffff;
-    border-radius: 2px;
-
-}
-.container .left-div .content a:hover{
-    color: white;
-    background-color:  rgb(23,40,82);
-}
-@media screen and (max-width: 720px){
-
-    .Bg-img{
-        height: 30%;
-        padding-top: 20%;
-        margin-bottom: -10%;
-    }
-    .container{
-         width: 90%;
-         flex-wrap: wrap-reverse;
-    
-    }
-    .container .right-div{
+    .service-card{grid-template-columns: 1fr;
+    row-gap: 40px;
+width: 100%;}
+    .service-card .content-right img{
+        height:400px ;
+        width: 400px;
         
-        /* width: 100%;
-        margin: 5px;
-        padding: 2px; */
-       display: none;
+    
+    }
+    .service-card .content-right{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
 
+    .service-card .content-left{
+        box-sizing: border-box;
         
     }
-    .container .left-div{
-        width: 95%;
-        overflow: hidden;
-        right: 0px;
-        top: -100px;
-        margin: 15% 0 0 0;
-        padding: 3rem 1rem;
-    }
-.content{
-    text-align: left;
-}
-.left-div h2{
-    text-align: left;
-    font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 1.7rem;
-}
+
+    .service-card .content-left p{
+        font-size: 1rem;
+        font-weight: 500;
+            font-family: "Open Sans", verdana, Helvetica, sans-serif;
+            padding: 15px 0px;
+        width: 98%;
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+        }
+        .service-card pre{
+            display: none;
+        }
 }
