@@ -372,3 +372,14 @@
 .banner{
   position: relative;
 }
+
+.aboutus div span {
+  font-size: 2.1rem;
+  color: rgb(23, 40, 82);
+  display: inline-block;
+  padding: 10px 0px;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 5px 0px 10px;
+  position: relative;
+}
