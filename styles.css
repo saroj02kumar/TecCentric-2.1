@@ -733,7 +733,7 @@ background-image: none;
     padding: 50px 30px;
     align-items: center;
     background-color: rgb(23,40,82);
-    color: whitesmoke;
+    color: #ffffff;
     justify-content: space-evenly;
     transform: translateX(-100%);
     transition: 2s;
@@ -772,10 +772,10 @@ section.show-animation .promo{
     
 }
 .promo .right button{
-  border: 0.5px white solid;
+  border: 0.5px solid #ffffff;
   border-radius: 2px;
   padding: 10px;
-  background-color: rgb(23,40,82);
+  background-color: transparent;
   cursor: pointer;
   overflow: hidden;
   margin-left: 15px;

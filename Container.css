@@ -109,7 +109,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:white;
+    background-color:rgb(23,40,82);
     padding: 10px 0;
     
     /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%); */
@@ -128,7 +128,7 @@
 .container .left-div{
     width: 50%;
     height: auto;
-    background-color:#262626;
+    background-color:#ffffff;
     padding: 5rem 1rem;
     border-radius: 2px;
     position: relative;
@@ -142,7 +142,7 @@
 .left-div h2{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 2.1rem;
-    color: #ffffff;
+    color: rgb(23,40,82);
 
 }
 .left-div p{
@@ -150,7 +150,7 @@
     font-size: 1.1rem;
     font-weight: 500;
     margin: 2.5rem 0;
-    color: #ffffff;
+    color: rgb(23,40,82);
 
 }
 
@@ -180,8 +180,8 @@
     font-size:20px;
     margin: 3rem 0;
     padding: 1rem 1rem;
-    color: rgb(23,40,82);
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: rgb(23,40,82);
     border-radius: 2px;
 
 }
@@ -197,25 +197,26 @@
         margin-bottom: -10%;
     }
     .container{
-         width: 90%;
+         width: 100%;
          flex-wrap: wrap-reverse;
+         justify-content: center;
     
     }
     .container .right-div{
         
-        /* width: 100%;
-        margin: 5px;
-        padding: 2px; */
-       display: none;
+        width: 96%;
+        margin: 5px 2px 5px 1.5px;
+        padding: 2px;
+       /* display: none; */
 
         
     }
     .container .left-div{
-        width: 95%;
+        width: 80%;
         overflow: hidden;
         right: 0px;
         top: -100px;
-        margin: 15% 0 0 0;
+        margin: -45% 0 0 0;
         padding: 3rem 1rem;
     }
 .content{

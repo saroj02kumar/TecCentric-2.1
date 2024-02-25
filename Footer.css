@@ -187,6 +187,10 @@ ul{
 .footer .row{
 	padding-left: 20px;
 }
+.footer{
+	background-color: rgb(23,40,82);
+    padding: 70px 0 10px 0;
+}
 /* .footer-col h4::before{
 	text-align: center;
 	align-items: center;
@@ -196,6 +200,10 @@ ul{
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
+}
+.footer{
+	background-color: rgb(23,40,82);
+    padding: 70px 0 10px 0;
 }
 /* .row{
 	align-items: center;

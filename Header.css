@@ -238,17 +238,20 @@ header{
 @media (max-width: 768px){
   .img-slider{
     width: 100%;
-    height: 100vh;
+    height: 60vh;
+  }
+  header{
+    height: 60vh;
   }
   .img-slider .slide{
     width: 100%;
-    height: 100%;
+    height: 60vh;
   }
 
   .img-slider .slide img{
 
     width: 100%;
-    height: 100%;
+    height: 60vh;
   
   }
 

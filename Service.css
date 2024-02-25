@@ -221,8 +221,8 @@
 .service .contain a{
   /* display: inline-flex; */
   width: fit-content;
-  color: orange;
-  border: 1px solid white;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   font-size: 1.3rem;
   padding: 5px;
   margin-top: 1rem;
