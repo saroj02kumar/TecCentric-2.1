@@ -228,8 +228,8 @@ body{
     width: 22%;
     min-width: 280px;
     margin: 3% auto;
-    background: #242424;
-    color: whitesmoke;
+    background: rgb(23,40,82);
+    color: #ffffff;
     border-radius: 10px;
     transition: ease all 0.7s;
     border: 1px solid #242424;
@@ -335,7 +335,7 @@ body{
 
 /* Outsourcing services */
 .outsourcing-services{
-    background: #262626;
+    background: #ffffff;
     width: 100%;
     padding: 2rem 0;
 }
@@ -372,6 +372,7 @@ body{
     margin-left: 5%;
     width: 40%;
     font-size: 1.1rem;
+    color: #000;
 }
 .outsourcing-text h2{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
@@ -601,7 +602,7 @@ padding: 5px 10px;
     }
     .service-banner-contents{
         max-width: 500px;
-        margin-left: 3rem;
+        margin-left: -2rem;
         color: #ffffff;
         height: 50%;
         display: flex;
