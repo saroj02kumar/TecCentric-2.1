@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  
+
+
+.casestudy2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.casestudy2 .left{
+    width: 50%;
+    padding: 30px 30px;
+    transition: 2s;
+    transform: translateX(-100%);
+}
+
+
+section.show-animation .casestudy2 .left{
+    transform: translateX(0);
+}
+
+.casestudy2 .left h2{
+    font-size: 30px;
+    color: rgb(23,40,82);;
+    line-height: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.casestudy2 .right{
+
+    width: 50%;
+    padding: 30px 20px;
+   
+  
+
+}
+.casestudy2 .left p, .casestudy2 .left h2, .casestudy2 .left a{
+    margin-bottom: 30px;
+    
+}
+.casestudy2 .left a{
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+}
+.casestudy2 .right .card2{
+    height: auto;
+    width: 50%;
+    box-shadow: 5px 5px 10px rgb(94, 92, 92);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 2s;
+    transform: translateX(100%);
+}
+
+
+section.show-animation   .casestudy2 .right .card2{
+    transform: translateX(0);
+}
+.casestudy2 .right .card2 img{
+    height: 60%;
+    width: 100%;
+
+}
+.card2 h4, .card2 p, .card2 img{
+    margin: 5px 0px;
+    text-align: left;
+    
+}
+.card2:nth-child(2){
+    margin-left: 30px;
+}
+.card2 h4{
+    font-size: larger;
+    color:rgb(23,40,82);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ @media screen and (max-width: 760px){
+
+.casestudy2{
+
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5px;
+    padding: 0px 0px;
+
+}
+
+.casestudy .left h2{
+    font-size: 25px;
+      text-align: left;
+ 
+}
+
+.casestudy .left,.right{
+    width: 100%;
+    margin: 5px;
+    padding: 0px 0px;
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.casestudy2 .right{
+
+width: 100%;
+flex-wrap: wrap;
+padding: 20px 0px;
+
+}
+
+.casestudy2 .right .card2{
+    width: 100%;
+    transform: translateX(0);
+    transition: 1s;
+    margin: 15px 0px;
+    
+
+}
+
+.casestudy2 .right .card2 img{
+    width: 100%;
+    height: auto;
+}
+.card2:nth-child(2){
+    margin-left: 0px;
+}
+
+.card2 h4,p,img{
+    margin: 5px 0px;
+    
+}
+ }
+
+ 
+@keyframes CaseStudyLeft {
+    0%{
+      transform: translate(200px,0px);
+    }
+    100%{
+      transform: translate(0px,0px);
+    }
+    
+  }
+  
+  
+  @keyframes CaseStudyRight {
+    0%{
+      transform: translate(0px,200px);
+    }
+    100%{
+      transform: translate(0px,0px);
+    }
+    
+  }
+  
+  

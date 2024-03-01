@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
+     */
+     /* background:rgb(23,40,82) */
+     background:#ffffff;
+}
+
+.contact-image img{
+    width: 100%;
+    height:70vh;
+}
+
+.contactus-div{
+position:relative;
+width:100%;
+padding:40px 100px;
+}
+.contactus-div .title-contact{
+    /* padding-top: 1%; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+}
+
+.contactus-div .title-contact h2{
+    color:#fff;
+    font-weight: 500;
+}
+
+
+.form{
+    grid-area: form;
+}
+
+.info{
+    grid-area: info;
+}
+
+.map{
+    grid-area: map;
+}
+
+.contact{
+    padding:40px;
+    background:rgb(23,40,82) ;
+    /* background: #fff; */
+    box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+    border-radius: 2px;
+}
+.contact-box{
+    position:relative;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap:20px;
+    margin-top: 20px;
+    
+}
+.contact h3{
+    /* color:#0e3959; */
+    color:#fff;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+
+}
+
+/* form box */
+.formBox{
+    position:relative;
+    width:100%;
+}
+.formBox .row50 {
+    display:flex;
+    gap:20px;
+}
+
+ .inputBox{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width:50%;
+    border-radius: 2px;
+
+}
+
+.formBox .row100 .inputBox{
+    width:100%;
+}
+.inputBox span{
+    /* color:rgb(23,40,82); */
+    color:white;
+
+    margin-top:10px;
+    margin-bottom:5px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.inputBox input{
+    padding:10px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.1em;
+    outline: none;
+    border:1px solid #05062f;
+    
+     /* border:1px solid #fff; */
+    border-radius: 2px;
+}
+.inputBox textarea{
+    padding:10px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.1em;
+    outline: none;
+    border:1px solid #05062f;
+    /* resize:none; */
+    min-height: 220px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    
+}
+.inputBox input[type="submit"]{
+    /* background: rgb(23,40,82); */
+    background: white;
+
+    /* color:#fff; */
+    color:rgb(23,40,82); 
+    border:none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.3em;
+    max-width:120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding:6px 15px;
+    border-radius: 2px;
+
+}
+.inputBox ::placeholder{
+    /* color:#999; */
+    color:rgb(23,40,82)
+}
+
+/* info */
+/*  */
+.info{
+/* background:#0e3959; */
+/* background:white; */
+background: rgb(23,40,82);
+
+}
+.info h3{
+    color:#fff;
+    /* color:rgb(23,40,82); */
+}
+.info .infoBox div{
+display:flex;
+align-items: center;
+margin-bottom: 10px;
+
+}
+.info .infoBox div span{
+    min-width:40px;
+    height:40px;
+    color:#fff;
+    /* color:rgb(23,40,82); */
+
+    background:#18b7ff;
+    /* background:rgb(23,40,82); */
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size:1.5em ;
+    border-radius: 50%;
+    margin-right: 15px;
+    ;
+
+}
+.info .infoBox div p{
+    color:#fff;
+    /* color:rgb(23,40,82); */
+
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.info .infoBox div a{
+    color:#fff;
+    /* color:rgb(23,40,82); */
+
+    text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+.sci{
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    
+}
+.sci li{
+    list-style: none;
+    margin-right:15px;
+}
+.sci li a{
+    color:#fff;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2em;
+    /* color:#ccc; */
+    /* color:rgb(23,40,82); */
+
+
+}
+.sci li a:hover{
+    color:#fff;
+    /* color:rgb(23,40,82); */
+
+}
+.map{
+    padding:0;
+}
+.map iframe{
+    width:100%;
+    height:100%;
+}
+/* Responsive Design */
+@media (max-width:991px){
+    body{
+        /* background: #0e3959; */
+        background: rgb(23,40,82);
+
+    }
+    .contactus-div{
+        padding:20px;
+    }
+    /* .contactus-div .title-contact{
+        margin-top: 3%;
+        margin-top: 1%;
+
+    } */
+    .contact-box{
+        position:relative;
+        display:grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form "
+        "info"
+        "map";
+        grid-gap:20px;
+    }
+ 
+    .formBox .row50{
+        display:flex;
+        gap:0;
+        flex-direction:column;
+    }
+    .inputBox{
+        /* display: flex;
+        flex-direction: column;
+        margin-bottom: 10px; */
+        width:100%;
+    }
+    .contact{
+        padding:30px;
+    }
+    .map{
+        min-height:300px;
+        padding:0px;
+    }
+}
+
+
+@media (max-width:768px){
+    /* .contactus-div .title-contact{
+        margin-top: 3%; 
+         margin-top: 1%;
+
+    
+    } */
+    /* .contactus-div .title-contact h2{
+        color: #fff;
+    } */
+
+    .contactus-div{
+        background:white;
+        /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%); */
+    }
+    .contact-image img{
+        width: 100%;
+        /* height: 45vh; */
+        height: 65vh;
+
+    }
+
+}
+
+
+/* .aboutusbottom{
+    background-color: #262626;
+}
+.Bg-aboutus{
+    background-color: #262626;
+} */

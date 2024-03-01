@@ -1,0 +1,213 @@
+*{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+*, *::before, *::after {
+        box-sizing: border-box;
+     }
+
+.tech-banner{
+    height: 70vh;
+    width: 100%;
+    padding: 10rem 0 0 5rem;
+    background: url(images/Blue\ Navy\ and\ Orange\ Geometric\ Technology\ LinkedIn\ Banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.tech-banner h1{
+    font-size: 5rem;
+    color: aliceblue;
+}
+.tech-banner p{
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 55px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 420px){
+    .tech-banner{
+        height: 50vh;
+        padding: 35% 0 0 3rem;
+
+    }
+    .tech-banner h1{
+        font-size: 1.5rem;
+    }
+    .tech-banner p{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    
+}
+
+/* Our Team for Technologies. Please use .ourteam-tech each time to call and edit the child elements as the ourteam section is common in
+both Technology as well as solution pages. */
+
+.ourteam-tech {
+    /* background-color: rgb(226, 223, 223); */
+    background-color:   rgb(23,40,82);
+    border-bottom: 10px solid rgb(23,40,82);
+  }
+  .ourteam-tech .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    padding: 1em 4em 2em 4em;
+    text-align: center;
+    justify-content: center;
+  }
+  .ourteam-tech .column {
+    /* width: 30%; */
+    /* flex: 0 0 33.33%; */
+    /* padding: 0.5em 0;
+    margin-bottom: 1rem; */
+    transition: ease all 0.4s;
+    
+    
+  }
+  .ourteam-tech h1 {
+    width: 100%;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-left: 170%;
+  }
+  .ourteam-tech .card {
+    /* box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2em 0;
+    border-radius: 0.6em;
+    color: rgb(23,40,82);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    
+    
+  }
+  .ourteam-tech .card .img-container {
+    width: 10em;
+    height: 10em;
+    background-color: #ffffff;
+    padding: 0.5em;
+    border-radius: 10%;
+    margin: 0 auto 1em auto;
+    
+  }
+  .ourteam-tech .card img {
+    width: 100%;
+    border-radius: 10%;
+  }
+  .ourteam-tech .card h3 {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  .ourteam-tech .card p {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    margin: 1em 0 1.5em 0;
+    letter-spacing: 2px;
+  }
+  .ourteam-tech .icons {
+    width: 30%;
+    min-width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .ourteam-tech .card a {
+    text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    color: inherit;
+    font-size: 1.4em;
+    
+  }
+  .ourteam-tech .card:hover {
+    background: linear-gradient(#262626, #262626);
+    color: #ffffff;
+    
+  }
+  .ourteam-tech .card:hover .img-container {
+    transform: scale(1.15);
+  }
+
+
+  @media screen and (max-width: 668px){
+    .ourteam-tech .row h1{
+      margin-left: 0%;
+    }
+    .ourteam-tech .row{
+      text-align: center;
+      margin: 1rem 0;
+      padding: 0 0 0 25px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .ourteam-tech {
+      padding: 0.5em 1em;
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .ourteam-tech {
+      padding: 0.5em 0em;
+      
+    }
+    .ourteam-tech .column {
+      /* flex: 0 0 33.33%; */
+      width: 95%;
+      padding: 0 1em;
+      flex: none;
+    }
+    .ourteam-tech .card {
+      padding: 2em 0;
+    
+  }
+  .ourteam-tech .row h1{
+    margin-left: 0%;
+  }
+  .ourteam-tech .row{
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0 0 0 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+  
+  @media screen and (min-width: 992px) {
+    .ourteam-tech {
+      padding: 1em;
+    }
+
+    /* .ourteam .row h1{
+      margin-left: 0%;
+    }
+    .ourteam .row{
+      text-align: center;
+      margin: 1rem 0;
+      padding: 0 0 0 25px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 80px;
+    } */
+    /* .ourteam .card {
+      padding: 2em 0;
+      width: 70%;
+    } */
+    /* .ourteam .column {
+      flex: 0 0 25.33%;
+      width: 55%;
+      padding: 2em 0;
+      
+    } */
+  }

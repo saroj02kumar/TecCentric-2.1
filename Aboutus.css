@@ -599,7 +599,8 @@
 
   }
   .main-Connect .text-connect{
-    width: 60%;
+    width: 80%;
+    padding-top: 10%;
   }
 
   .msg-connect .round-box{
@@ -874,6 +875,20 @@
      }
 
      @media screen and (max-width:400px){
+      .main-Connect .text-connect .text-white{
+        width: 100%;
+        font-size: 2.3rem;
+        margin-top: 10%;
+      }
+      .aim-aboutus .right-aim{
+        height: 100%;
+      }
+      .aim-aboutus {
+        height: 100%;
+      }
+      .Bg-Connect .main-Connect {
+        margin-top: 55%;
+      }
       .Bg-Strategy{
         margin-top: 55%;
       }
