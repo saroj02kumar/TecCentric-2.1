@@ -874,6 +874,9 @@
      }
 
      @media screen and (max-width:400px){
+      .Bg-Strategy{
+        margin-top: 55%;
+      }
 
    
       .about-us-container{
