@@ -1,5 +1,8 @@
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 @font-face {
   font-family: 'Open Sans';
   src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
@@ -460,18 +463,43 @@
   }
 
   @media screen and (max-width:768px) {
+    .aim-aboutus .left-aim img{
+      width: 600px;
+      height: 59vh;
+      margin-left: -50%;
+    }
+    .approach-about-image img{
+      width: 600px;
+      
+    }
+
+    .about-us-container{
+      margin-top: -25%;
+    }
+    .Bg-main .aim-aboutus{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .Bg-Strategy{
+
+      margin-top: 35%;
+    }
 
     .Bg-Strategy .main-Strategy{
       flex-direction: column;
     }
     .main-Strategy .left-main-Strategy{
-      width:100%;
+      width:90%;
+      margin: 0 5%;
     }
     .main-Strategy .right-main-Strategy{
       width: 100%;
     }
     .right-main-Strategy ul li h4{
-      font-size: 2.5rem;
+      font-size: 1.7rem;
+    }
+    .Bg-Connect .main-Connect {
+      margin-top: 35%;
     }
     
   }
@@ -506,6 +534,7 @@
   margin-left: 15%;
 }
 .main-Connect .text-connect .text-white{
+  color: #ffffff;
   font-size: 3rem;
   font-weight: 600;
   font-family: "Open Sans", verdana, Helvetica, sans-serif; ;
@@ -557,6 +586,39 @@
 }
 @media screen and (max-width:768px){
 
+  .Bg-Connect .main-Connect{
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .main-Connect .text-connect .text-white{
+    color: #ffffff;
+    /* margin-left: 10%; */
+
+  }
+  .main-Connect .text-connect{
+    width: 60%;
+  }
+
+  .msg-connect .round-box{
+    width:200px;
+    height: 200px;
+    background: #ffffff;
+    color: rgb(23, 40, 82);
+    border-radius: 50%;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 15%;
+    
+  }
+
    
   .about-us-container{
     justify-content: center;
@@ -565,7 +627,9 @@
     display: none;
   }
   .about-two{
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin:10% 5%;
    
   }
@@ -575,12 +639,20 @@
     /* padding: 20px 0; */
 
   }
-  .aim-aboutus .right-aim{
-    width:100%;
+  .Bg-main{
+    margin: 5% 0 20% 0;
+    width: 100vw;
+    height: 100vh;
   }
-   .aim-aboutus .left-aim{
+
+  .aim-aboutus .right-aim{
+    width:95%;
+    margin: 0 2.5%;
+    
+  }
+   /* .aim-aboutus .left-aim{
     display: none;
-   }
+   } */
 
    .about-us-container .left-about-us{
     width: 95%;
@@ -590,6 +662,7 @@
 
  .about-two .approach-about{
   height: 550px;
+  width: 100%;
     border: 1px solid black;
     text-align: center;
     padding: 1.8rem 1.8rem;
@@ -603,9 +676,24 @@
   border-radius: 8px;
   /* margin-right: 8rem; */
 }
+.about-two{
+  width: 90%;
+}
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
+
+  .aim-aboutus .left-aim img{
+    width: 500px;
+  }
+  .approach-about-image img{
+    width: 500px;
+  }
+  .Bg-main{
+    margin: 5% 0 20% 0;
+    width: 100vw;
+    height: 100vh;
+  }
 
   .about-us-container{
     justify-content: center;
@@ -771,3 +859,55 @@
      .aboutus{
       margin-top: 0;
      }
+
+     @media screen and (max-width:400px){
+
+   
+      .about-us-container{
+        justify-content: center;
+      }
+      .about-us-container .about-second{
+        display: none;
+      }
+      .about-two{
+        flex-wrap: wrap;
+        margin:10% 5%;
+       
+      }
+      .approach-about, .edge-about{
+        margin: 20px 0;
+        height:auto;
+        /* padding: 20px 0; */
+    
+      }
+      .aim-aboutus .right-aim{
+        width:100%;
+        z-index: 0;
+        
+      }
+       .aim-aboutus .left-aim{
+        z-index: 0;
+       }
+    
+       .about-us-container .left-about-us{
+        width: 95%;
+        height: 80%;
+        margin-top: 40%;
+     }
+    
+     .about-two .approach-about{
+      height: 550px;
+        border: 1px solid black;
+        text-align: center;
+        padding: 1.8rem 1.8rem;
+        border-radius: 8px;
+     }
+     .about-two .edge-about{
+      height: 550px;
+      border: 1px solid black;
+      text-align: center;
+      padding: 1.8rem 1.8rem;
+      border-radius: 8px;
+      /* margin-right: 8rem; */
+    }
+    }
