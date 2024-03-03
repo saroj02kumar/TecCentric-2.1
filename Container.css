@@ -145,6 +145,7 @@
     color: rgb(23,40,82);
     text-decoration: underline;
     text-underline-offset: 10px;
+    margin-left: 2rem;
     
 
 }
@@ -152,7 +153,7 @@
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
-    margin: 2.5rem 0;
+    margin: 2.5rem 2rem;
     color: rgb(23,40,82);
 
 }
@@ -181,17 +182,20 @@
     text-decoration: none;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size:1.2rem;
+    font-weight: 500;
     margin: 3rem 0;
     padding: .5rem 1rem;
-    color: rgb(23,40,82);
+    color: #ffffff;
     background-color: transparent;
     border-radius: 2px;
     border: 1px solid rgb(23,40,82);
+    background-color: rgb(23,40,82);
+    margin-left: 2rem;
 
 }
 .container .left-div .content a:hover{
-    color: white;
-    background-color:  rgb(23,40,82);
+    color: rgb(23,40,82);
+    background-color:  #ffffff;
 }
 @media screen and (max-width: 720px){
 
