@@ -796,7 +796,7 @@
 
 }
 
-.bottom-image{
+/* .bottom-image{
   position: relative;
   margin: 0;
   padding: 0;
@@ -840,7 +840,7 @@
  
   color: rgb(23,40,82);
   
-}
+} */
 
 .Bg{
   height: 100vh;
@@ -904,7 +904,7 @@ font-size: 1.7rem;
   width: 275px;
   margin-left: 60%;
 }
-.ourteam-join a{
+/* .ourteam-join a{
   font-size: .8rem;
 }
 .ourteam-join{
@@ -914,6 +914,6 @@ font-size: 1.7rem;
   padding: 3px 5px;
   background-color: rgb(23,40,82);
   
-}
+} */
   
 }

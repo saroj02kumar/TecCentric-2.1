@@ -498,9 +498,9 @@
     .right-main-Strategy ul li h4{
       font-size: 1.7rem;
     }
-    .Bg-Connect .main-Connect {
+    /* .Bg-Connect .main-Connect {
       margin-top: 35%;
-    }
+    } */
     
   }
 
@@ -513,40 +513,40 @@
 
 /* ////////////// class -: "Bg-Connect" ///////////////// */
 
-.Bg-Connect{
+/* .Bg-Connect{
   height: 50vh;
   width: 100%;
   background-color: rgb(23,40,82);
   color: #ffffff;
   margin-bottom: 5%;
-}
-.Bg-Connect .main-Connect{
+} */
+/* .Bg-Connect .main-Connect{
   width: 100%;
   height: 100%;
-  /* background-color: blue; */
+
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.main-Connect .text-connect{
+} */
+/* .main-Connect .text-connect{
   width: 100%;
-  /* padding: 0px 12px; */
+  
   margin-left: 15%;
-}
-.main-Connect .text-connect .text-white{
+} */
+/* .main-Connect .text-connect .text-white{
   color: #ffffff;
   font-size: 3rem;
   font-weight: 600;
   font-family: "Open Sans", verdana, Helvetica, sans-serif; ;
-  /* align-items: center !important; */
-}
-.main-Connect .msg-connect{
+  
+} */
+/* .main-Connect .msg-connect{
   width: 50%;
   height: 100%;
   
-}
+} */
 
-.msg-connect .round-box{
+/* .msg-connect .round-box{
   width:260px;
   height: 260px;
   background: #ffffff;
@@ -560,16 +560,16 @@
   text-align: center;
   margin-top: 3rem;
   
-}
-.msg-connect .round-box:hover{
+} */
+/* .msg-connect .round-box:hover{
   background: rgb(23, 40, 82);
   color: #ffffff;
   border: 1px solid #ffffff;
   .msg-connect .round-box a{
     color: #ffffff;
   }
-}
-.msg-connect .round-box a{
+} */
+/* .msg-connect .round-box a{
   font-size: 2rem;
   text-decoration: none;
   color: rgb(23, 40, 82);
@@ -583,7 +583,7 @@
 }
 .msg-connect .round-box a:hover{
   color: #ffffff;
-}
+} */
 @media screen and (max-width:768px){
 
   .Bg-Connect .main-Connect{
@@ -789,8 +789,8 @@
 .aboutus .aboutus-cards .about-card {
   width: 23.5%;
   height: auto;
-  border: 1px solid rgb(23,40,82);
-  box-shadow: 6px 6px 10px #35343482 ;
+  /* border: 1px solid rgb(23,40,82);
+  box-shadow: 6px 6px 10px #35343482 ; */
   padding: 20px 0;
   margin: 3% 0 5% 0;
   border-radius: 12px;

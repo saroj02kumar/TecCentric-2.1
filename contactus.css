@@ -9,9 +9,7 @@ html,body{
     width:100%;
 }
 body{
-    /* background: linear-gradient(90deg,rgb(23,40,82)30%,rgb(23,40,82)30%,orange 100%,orange 100%);
-     */
-     /* background:rgb(23,40,82) */
+    
      background:#ffffff;
 }
 
@@ -26,7 +24,7 @@ width:100%;
 padding:40px 100px;
 }
 .contactus-div .title-contact{
-    /* padding-top: 1%; */
+    
     display:flex;
     justify-content: center;
     align-items: center;

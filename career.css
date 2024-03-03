@@ -304,13 +304,7 @@ line-height: 2.7rem;
     color: #fff;
     font-weight: 700;
 }
-.container-default .container_text_default .g-para{
-    font-family: "Open Sans", verdana, Helvetica, sans-serif;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #ffffff;
-    margin-bottom: 1rem;
-}
+
 .container-default .container_text_default .data-default{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-weight: 400;
