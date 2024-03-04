@@ -775,7 +775,7 @@ section.show-animation .promo{
   border: 0.5px solid #ffffff;
   border-radius: 2px;
   padding: 10px;
-  background-color: transparent;
+  background-color: #ffffff;
   cursor: pointer;
   overflow: hidden;
   margin-left: 15px;
@@ -783,14 +783,18 @@ section.show-animation .promo{
 }
 .promo .right button:hover{
   box-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 12px orange, 0 0 15px orange;
+  background-color: rgb(23,40,82);
   transform: translateX(10px);
   transition: all ease 0.5s;
+  a{
+    color: #ffffff;
+  }
 
 }
 .promo .right a{
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
   list-style-type: none;
-  color: white;
+  color: rgb(23,40,82);
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;

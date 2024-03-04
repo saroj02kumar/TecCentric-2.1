@@ -164,10 +164,12 @@
   color: #ffffff;
   width: 50%;
   position: relative;
-  padding: 5rem 1rem;
+  padding: 3.7rem 1rem;
   box-shadow: 5px 5px 10px rgb(94, 92, 92);
   transition: ease all 0.8s;
   text-align: left;
+  margin-left: 2rem;
+  
 }
 
 /* .about-us-container .left-about-us:hover{
@@ -177,16 +179,19 @@
 .about-us-container .left-about-us h2{
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-size: 2.1rem;
-  border-bottom: 2px solid #ffffff;
-  padding-bottom: 3px;
+  /* border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px; */
   display: inline;
+  margin-left: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 
 }
 .about-us-container .left-about-us p{
   font-size: 1.3rem;
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-weight: 500;
-  margin: 2rem 0;
+  margin: 2rem 2rem;
   text-align: left;
   padding: 1.5rem 0;
 }
@@ -336,16 +341,19 @@
   .aim-aboutus .right-aim h2{
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-size: 2.1rem;
-  border-bottom: 2px solid #ffffff;
+  /* border-bottom: 2px solid #ffffff; */
+  text-decoration: underline;
+  text-underline-offset: 10px;
   padding-bottom: 3px;
   display: inline;
+  margin-left: 2rem;
   }
 
   .aim-aboutus .right-aim p{
   font-size: 1.3rem;
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-weight: 500;
-  margin: 2rem 0;
+  margin: 2rem 2rem;
   text-align: left;
   padding: 1.5rem 0;
 
@@ -396,24 +404,31 @@
   .Bg-Strategy{
     width: 100%;
     height: 100%;
+    background-color: rgb(23, 40, 82);
+    padding: 30px 0;
+    align-items: center;
   }
   .Bg-Strategy h1{
     text-align: center;
     font-size: 2.1rem;
     /* background-color:rgb(23,40,82) ; */
-    color:rgb(23, 40, 82);
+    color:#ffffff;
     padding: 3px;
     margin-bottom: 3%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
   }
   .Bg-Strategy .main-Strategy{
     width:100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   
   .main-Strategy .left-main-Strategy{
-    width:50%;
+    width:80%;
     height: auto;
   }
   .main-Strategy .left-main-Strategy h2{
@@ -421,41 +436,49 @@
     font-weight: 600;
     font-size: 1.8rem;
     /* border-bottom: 2px solid #ffffff; */
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     display: inline;
-    color: rgb(23, 40, 82);
+    color: #ffffff;
   }
   .main-Strategy .left-main-Strategy p{
     font-size: 1.3rem;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
+    color: #ffffff;
   }
 
   .main-Strategy .right-main-Strategy{
-    width: 30%;
-    padding-left: 2px;
+    width: 80%;
+    /* padding-left: 2px; */
+    
     
   }
   .right-main-Strategy ul{
     padding-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .right-main-Strategy ul li{
     list-style:none ;
+    text-align: center;
   }
   .right-main-Strategy ul li h4{
     font-size: 1.62rem;
     font-weight: 500;
     color: rgb(23, 40, 82);
+    padding: 10px 0;
   }
   .right-main-Strategy ul li.borderGreen{
     padding-left: 2%;
-    border-left: 0.3vw solid rgb(38, 76, 170);
+    border-left: 0.3vw solid #ffffff;
+    background-color: #ffffff;
   } 
   .right-main-Strategy ul li.borderBlue{
     /* color: rgb(17, 17, 17); */
     padding-left: 2%;
-    border-left: 0.3vw solid #000;
+    border-left: 0.3vw solid #ffffff;
+    background-color: #ffffff;
   } 
   li.borderGreen, li.borderBlue{
     margin-bottom: 4vh;
@@ -819,7 +842,8 @@
   margin-top: 10px;
 }
 .readmore a{
-  color: rgb(23,40,82);
+  color: #ffffff;
+  background-color: rgb(23, 40, 82);
   font-family: "Open Sans", verdana, Helvetica, sans-serif ;
   font-size: 1.3rem;
   font-weight: 600;
@@ -828,6 +852,10 @@
   padding: 5px 10px;
   border-radius: 2px;
 
+}
+.readmore a:hover{
+  background-color: #ffffff;
+  color: rgb(23, 40, 82);
 }
 
 

@@ -157,13 +157,19 @@ section.show-animation .casestudy .left{
 }
 .casestudy .left a{
     text-decoration: none;
-    color:  rgb(23,40,82);
+    color:  #ffffff;
+    background-color: rgb(23,40,82);
     font-weight: bold;
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     font-size: 1.2rem;
     border: 1px solid rgb(23,40,82);
     padding: 5px 10px;
     border-radius: 2px;
+}
+
+.casestudy .left a:hover{
+    background-color: #ffffff;
+    color: rgb(23,40,82);
 }
 .casestudy .right img{
   
