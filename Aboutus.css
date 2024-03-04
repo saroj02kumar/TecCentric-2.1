@@ -212,7 +212,7 @@
 .aboutus{
   width: 100%;
   height: fit-content;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   
   
 }
@@ -274,7 +274,7 @@
     /* margin:1rem 20rem; */
     text-align: center;
     margin:2% 0 5% 0;
-    padding: 5% 0 0 0;
+    padding: 3% 0 0 0;
     position: relative;
     height: 1005;
     width: 80%;
@@ -1026,7 +1026,7 @@
 
      .aboutus{
       margin-top: 0;
-      padding-bottom: 5%;
+      /* padding-bottom: 5%; */
      }
 
      @media screen and (max-width:400px){
