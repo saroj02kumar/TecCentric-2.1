@@ -333,7 +333,7 @@
     position:relative;
     background-color: rgb(23, 40, 82);
     /* box-shadow: 5px 5px 10px rgb(94, 92, 92); */
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
     color: #ffffff;
     margin-right: 2%;
 
@@ -344,7 +344,7 @@
   /* border-bottom: 2px solid #ffffff; */
   text-decoration: underline;
   text-underline-offset: 10px;
-  padding-bottom: 3px;
+  /* padding-bottom: 3px; */
   display: inline;
   margin-left: 2rem;
   }
@@ -353,7 +353,7 @@
   font-size: 1.3rem;
   font-family: "Open Sans", verdana, Helvetica, sans-serif;
   font-weight: 500;
-  margin: 2rem 2rem;
+  margin: 0.5rem 2rem;
   text-align: left;
   padding: 1.5rem 0;
 
