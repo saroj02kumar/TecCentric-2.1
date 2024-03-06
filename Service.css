@@ -260,6 +260,7 @@ body{
     border-top-right-radius: 10px;
     
 }
+
 .cards-service h2{
     font-family: "Open Sans", verdana, Helvetica, sans-serif;
     line-height: 105%;
@@ -432,6 +433,9 @@ padding: 5px 10px;
 /* Media Querry */
 
 @media screen and (max-width: 500px) {
+    .cards-service video{
+    width: 280px;
+    }
     .service-landingPage{
         height: 60vh;
         background-color: #262622;
