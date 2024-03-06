@@ -257,6 +257,15 @@
 
 /* Card Design of Our Team */
 
+.team-banner{
+  width: 100%;
+  height: 70vh;
+}
+.team-banner img {
+  max-width: 100%;
+  
+}
+
 .our-team {
     height: auto;
     width: 100%;
@@ -484,14 +493,22 @@
     }
   }
   @media screen and (max-width: 768px) {
+    .team-banner{
+      width: 100%;
+      height: 30vh;
+    }
+    .team-banner img {
+      max-width: 100%;
+      margin-top: 10%;
+    }
     .ourteam {
       padding: 0.5em 0em;
       
     }
-    .team-banner main a{
+    /* .team-banner main a{
       font-family: "Open Sans", verdana, Helvetica, sans-serif;
       font-size: 3.5rem;
-    }
+    } */
     .ourteam .column {
       /* flex: 0 0 33.33%; */
       width: 95%;
@@ -513,13 +530,13 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .team-banner main{
-    background-image: url(images/ourteam/ourteam.jpg);
+  /* .team-banner main{
+    background-image: url(images/ourteam/OUR\ TEAM.png);
     background-size: cover;
   background-position: center right;
   height: 100%;
-  width: 100%;
-}
+  max-width:  100%;
+} */
 }
   
   @media screen and (min-width: 992px) {
@@ -643,7 +660,16 @@
 
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:420px){
+  .team-banner{
+    width: 100%;
+    height: 30vh;
+  }
+  .team-banner img {
+    max-width: 100%;
+    margin-top: 10%;
+  }
+
     .our-team-container {
         flex-direction: column;
         align-items: center;
@@ -700,7 +726,20 @@
     }
     .Bg{
       flex-direction: column;
+    }*/
+    /* .Bg-left-div{
+      margin-top: 25%;
     } */
+
+    .Bg-right-div img{
+      margin-top: -10%;
+     max-width: 100%;
+     
+    }
+    .Bg-container{
+      flex-direction: column;
+      height: auto;
+    }
     
 }
 @media screen and (max-width:800px){

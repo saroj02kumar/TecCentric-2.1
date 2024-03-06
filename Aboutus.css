@@ -131,12 +131,16 @@
  
 } */
 
-.banner img{
-  height: 70vh;
+.banner{
   width: 100%;
-  transition: ease 1s;
+  height: 70vh;
+}
+.banner img{
+  
+  max-width: 100%;
+  /* transition: ease 1s;
   animation: opa 1s;
-  object-fit: cover;
+  object-fit: cover; */
 
 }
 @keyframes opa{
@@ -606,6 +610,15 @@
   }
 
   @media screen and (max-width:768px) {
+    .banner{
+      background-color: #262626;
+      width: 100%;
+      height: 20vh;
+    }
+    .banner img{
+      margin-top: 5%;
+      max-width: 100%
+    }
     .aim-aboutus .left-aim img{
       width: 600px;
       height: 59vh;
@@ -644,7 +657,12 @@
     /* .Bg-Connect .main-Connect {
       margin-top: 35%;
     } */
-    
+    .right-main-Strategy ul{
+      padding-top: 10%;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: -8%;
+    }
   }
 
 /* @media screen and(max-width:420px) {
@@ -825,7 +843,7 @@
   width: 90%;
 }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:420px){
   .aim-aboutus .left-aim img{
     width: 370px;
   }
@@ -837,6 +855,44 @@
     height: 80%;
     margin-top: 100%;
  }
+ .banner{
+  height: 20vh;
+ }
+ .aboutus .about-us-container{
+  margin-top: -54%;
+  padding-top: 0;
+ }
+ .Bg-main .aim-aboutus{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+ }
+ .Bg-main .aim-aboutus .left-aim{
+  width: 100vw;
+ 
+ }
+ .Bg-main .aim-aboutus .left-aim img{
+  width: 90%;
+  margin-left: 5%;
+ }
+ .Bg-main .aim-aboutus .right-aim {
+  width: 90%;
+  height: 100%;
+  margin-left:5% ;
+ }
+ /* .Bg-main .aim-aboutus{
+  margin-bottom: 10%;
+ } */
+
+ .Bg-Strategy{
+  margin-top: -25%;
+ }
+ .right-main-Strategy ul{
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin-left: -8%;
+}
 }
 
 @media screen and (max-width:600px){
@@ -883,6 +939,12 @@
       padding: 1.8rem 1.8rem;
       border-radius: 8px;
    }
+   .right-main-Strategy ul{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 8% 1% 8% -4%;
+  }
 }
 
 .about-h2{
@@ -1028,15 +1090,16 @@
 
      .aboutus{
       margin-top: 0;
-      /* padding-bottom: 5%; */
+      padding-bottom: 5%;
      }
 
-     @media screen and (max-width:400px){
+     @media screen and (max-width:420px){
       .aboutus div span {
         margin-left: 30%;
       }
       .readmore a{
         margin-left: -30%;
+        
       }
       .main-Connect .text-connect .text-white{
         width: 100%;
@@ -1066,7 +1129,7 @@
       }
       .about-two{
         flex-wrap: wrap;
-        margin:10% 5%;
+        margin:10% 5% -30% 5%;
        
       }
       .approach-about, .edge-about{
@@ -1113,7 +1176,7 @@
     }
     .aim-aboutus{
       flex-direction: column;
-      margin-top: -10%;
+      margin-top: 40%;
     }
     .Bg-main .aim-aboutus .left-aim img{
       width: 90%;
@@ -1125,5 +1188,8 @@
       width: 90%;
       margin-left: 5%;
       height: fit-content;
+    }
+    .end{
+      margin-top: 10%;
     }
     }
