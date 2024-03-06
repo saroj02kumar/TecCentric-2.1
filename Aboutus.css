@@ -420,7 +420,7 @@
   .Bg-main{
     width: 100%;
     height: fit-content;
-    margin-bottom: 5%;
+    margin: 5% 0 10% 0;
 
 }
 
@@ -591,12 +591,14 @@
     padding-left: 2%;
     border-left: 0.3vw solid #ffffff;
     background-color: #ffffff;
+    border-radius: 50px;
   } 
   .right-main-Strategy ul li.borderBlue{
     /* color: rgb(17, 17, 17); */
     padding-left: 2%;
     border-left: 0.3vw solid #ffffff;
     background-color: #ffffff;
+    border-radius: 50px;
   } 
   li.borderGreen, li.borderBlue{
     margin-bottom: 4vh;
